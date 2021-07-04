@@ -1,0 +1,22 @@
+.navbar-size {
+    height: 115px;
+    padding: 0px;
+}
+
+.mynavbar-link-container {
+    margin-left: 390px;
+    margin-right: 390px;
+    /* margin-top: 57px; */
+}
+
+.navbar-link-item {
+    margin-right: 70px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+.navbar-link-item-last {
+    margin-right: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
