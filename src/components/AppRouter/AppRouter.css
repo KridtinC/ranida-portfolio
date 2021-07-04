@@ -4,8 +4,10 @@
 }
 
 .mynavbar-link-container {
-    margin-left: 390px;
+    margin-left: 251px;
     margin-right: 390px;
+    display: flex;
+    justify-content: space-between;
     /* margin-top: 57px; */
 }
 
@@ -19,4 +21,12 @@
     margin-right: 0px;
     padding: 0px;
     font-size: 15px;
+}
+
+.logo-properties {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 91px;
 }

@@ -1,8 +1,9 @@
 import { Switch, Route } from "react-router";
 import { BrowserRouter, Link } from "react-router-dom";
-import Home from "../../pages/Home";
-import Info from "../../pages/Info";
+import Home from "../../pages/home/Home";
+import Info from "../../pages/info/Info";
 import './AppRouter.css'
+import logo from '../../assets/logo.png'
 
 const bodyPadding = {
     paddingTop: "115px"
@@ -14,6 +15,9 @@ function AppRouter() {
         <BrowserRouter>
             <div>
                 <nav className="navbar navbar-light fixed-top navbar-expand-sm navbar-size" data-aos="fade-down">
+                    <a href="/">
+                        <img className="logo-properties" src={logo}></img>
+                    </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
                         <span className="navbar-toggler-icon"></span>
                     </button>
