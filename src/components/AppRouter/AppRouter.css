@@ -11,10 +11,15 @@
     /* margin-top: 57px; */
 }
 
+.navbar-link-list {
+    margin: 0px;
+}
+
 .navbar-link-item {
-    margin-right: 70px;
-    padding: 0px;
     font-size: 15px;
+    margin-left: 32px;
+    margin-right: 32px;
+    font-weight: 700;
 }
 
 .navbar-link-item-last {

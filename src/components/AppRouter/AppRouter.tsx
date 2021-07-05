@@ -22,13 +22,13 @@ function AppRouter() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse mynavbar-link-container">
-                        <ul className="nav navbar-nav ml-auto">
+                        <ul className="nav navbar-nav mx-auto">
                             <Link className="navbar-brand navbar-link-item" to="/branding">BRANDING</Link>
                             <Link className="navbar-brand navbar-link-item" to="/illustration">ILLUSTRATION</Link>
                             <Link className="navbar-brand navbar-link-item" to="/advertising">ADVERTISING</Link>
                             <Link className="navbar-brand navbar-link-item" to="/uxui" >UX/UI DESIGN</Link>
                             <Link className="navbar-brand navbar-link-item" to="/others" >OTHERS</Link>
-                            <Link className="navbar-brand navbar-link-item-last" to="/info">INFO</Link>
+                            <Link className="navbar-brand navbar-link-item" to="/info">INFO</Link>
                         </ul>
                     </div>
                 </nav>

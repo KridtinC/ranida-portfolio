@@ -2,19 +2,18 @@
   font-family: 'Montserrat';
   font-weight: normal;
   font-style: normal;
-  color: #091F2C;
   src: local('Montserrat'), url(./assets/fonts/Montserrat-Regular.ttf) format('truetype');
 }
 
 @font-face {
   font-family: 'MontserratBold';
-  color: #091F2C;
   src: local('MontserratBold'), url(./assets/fonts/Montserrat-Bold.ttf) format('truetype');
 }
 
 .App {
   text-align: center;
   font-family: 'Montserrat';
+  color: #091F2C;
 }
 
 .App-logo {

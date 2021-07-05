@@ -1,6 +1,6 @@
 function Footer() {
     return (
-        <div>© RANIDA PITH., 2021</div>
+        <div style={{paddingBottom: "33px", paddingLeft: "80px", paddingRight: "80px"}}><hr />© RANIDA PITH., 2021</div>
     )
 }
 

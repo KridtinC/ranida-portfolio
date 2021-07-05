@@ -1,13 +1,14 @@
 .info-container {
-    padding-left: 190px;
-    padding-right: 190px;
     text-align: left;
+    color: #091F2C;
 }
 
 .profile-container {
     height: 856px;
     display: flex;
     align-items: center;
+    padding-left: 190px;
+    padding-right: 190px;
 }
 
 .profile-pic-container {
@@ -54,6 +55,8 @@
 .profile-edu-exp-container {
     height: 802px;
     display: flex;
+    padding-left: 190px;
+    padding-right: 190px;
 }
 
 .profile-edu-container {
@@ -97,8 +100,38 @@
 .skill-container {
     height: 473px;
     display: flex;
+    background-color: #091f2c1f;
 }
 
 .skill-info {
     width: 33.33%;
+}
+
+.contact-zigzag {
+    text-decoration:none;
+    position: relative;
+    z-index: 10;
+    top: -84px;
+}
+
+.contact-email {
+    background-color: #091F2C;
+    height: 670px;
+    position: relative;
+    top: -85px;
+    display: flex;
+}
+
+.contact-header {
+    width: 40%;
+}
+
+.contact-title {
+    font-size: 36px;
+    font-family: 'MontserratBold';
+    color: white;
+}
+
+.contact-form {
+    width: 60%;
 }

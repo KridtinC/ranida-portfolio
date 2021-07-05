@@ -1,5 +1,6 @@
 import './Info.css'
 import tmpPic from '../../assets/pic.png'
+import info1 from '../../assets/decorations/info-1.png'
 
 function Info() {
     return (
@@ -69,28 +70,46 @@ function Info() {
                 </div>
             </div>
             <div className="skill-container">
-                <div className="skill-info">
-                    <b className="edu-exp-title">CREATIVE SKILLS</b>
-                    <p className="edu-exp-info">BRANDING
-                        ILLUSTRATION
-                        ADVERTISING
-                        UX/UI DESIGN</p>
-                </div>
-                <div className="skill-info">
-                    <b className="edu-exp-title">SOFTWARE SKILLS</b>
-                    <p className="edu-exp-info">Adobe Illustrator
-                        Adobe Photoshop
-                        Adobe InDesign
-                        Adobe Lightroom
-                        Figma</p>
-                </div>
-                <div className="skill-info">
-                    <b className="edu-exp-title">LANGUAGE</b>
-                    <p className="edu-exp-info">Thai (Mother Tongue)
-                        English (Upper Intermediate)
-                        Japanese (Beginner)</p>
+                <div style={{ paddingLeft: "190px", paddingRight: "190px", display: "flex", paddingTop: "118px" }}>
+                    <div className="skill-info">
+                        <b className="edu-exp-title">CREATIVE SKILLS</b>
+                        <p className="edu-exp-info">BRANDING
+                            ILLUSTRATION
+                            ADVERTISING
+                            UX/UI DESIGN</p>
+                    </div>
+                    <div className="skill-info">
+                        <b className="edu-exp-title">SOFTWARE SKILLS</b>
+                        <p className="edu-exp-info">Adobe Illustrator
+                            Adobe Photoshop
+                            Adobe InDesign
+                            Adobe Lightroom
+                            Figma</p>
+                    </div>
+                    <div className="skill-info">
+                        <b className="edu-exp-title">LANGUAGE</b>
+                        <p className="edu-exp-info">Thai (Mother Tongue)
+                            English (Upper Intermediate)
+                            Japanese (Beginner)</p>
+                    </div>
                 </div>
             </div>
+            <div className="contact-zigzag">
+                <img src={info1} alt="" />
+            </div>
+            <div className="contact-email">
+                <div className="contact-header">
+                    <p className="contact-title" style={{ paddingLeft: "153px" }}>CONTACT ME</p>
+                </div>
+                <div className="contact-form">
+                    <div style={{ display: "flex" }}>
+                        <input type="text" />
+                        <input type="email" style={{marginLeft: "13px"}} />
+                    </div>
+
+                </div>
+            </div>
+
         </div>
     )
 }
