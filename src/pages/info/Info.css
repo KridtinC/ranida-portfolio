@@ -1,9 +1,12 @@
-.profile-container {
-    height: 856px;
+.info-container {
     padding-left: 190px;
     padding-right: 190px;
+    text-align: left;
+}
+
+.profile-container {
+    height: 856px;
     display: flex;
-    width: 1680px;
     align-items: center;
 }
 
@@ -33,7 +36,6 @@
 .profile-title-container {
     width: 50%;
     justify-content: center;
-    text-align: left;
 }
 
 .profile-title {
@@ -43,4 +45,56 @@
 
 .profile-info {
     font-size: 24px;
+}
+
+.profile-edu-exp-container {
+    height: 802px;
+    display: flex;
+}
+
+.profile-edu-container {
+    width: 50%;
+    justify-content: center;
+    height: max-content;
+}
+
+.profile-exp-container {
+    width: 50%;
+    justify-content: center;
+    height: max-content;
+}
+
+.edu-exp-title {
+    font-size: 36px;
+    font-family: 'MontserratBold';
+}
+
+.edu-exp-container {
+    display: flex;
+}
+
+.edu-exp-year {
+    font-size: 36px;
+    color: #9DA5AB;
+    width: 30%;
+    font-family: 'MontserratBold';
+}
+
+.edu-exp-info {
+    font-size: 24px;
+    width: 70%;
+}
+
+.edu-exp-info-desc {
+    font-size: 24px;
+    opacity: 60%;
+}
+
+.skill-container {
+    height: 473px;
+    display: flex;
+}
+
+.skill-info {
+    width: 33.33%;
 }
