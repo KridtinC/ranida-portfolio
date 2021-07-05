@@ -14,7 +14,7 @@ function AppRouter() {
     return (
         <BrowserRouter>
             <div>
-                <nav className="navbar navbar-light fixed-top navbar-expand-sm navbar-size" data-aos="fade-down">
+                <nav className="navbar navbar-light fixed-top navbar-expand-sm navbar-size app-router-bg" data-aos="fade-down">
                     <a href="/">
                         <img className="logo-properties" alt="" src={logo}></img>
                     </a>

@@ -43,6 +43,10 @@
     line-height: 100px;
 }
 
+.profile-title-name {
+    font-family: 'MontserratBold';
+}
+
 .profile-info {
     font-size: 24px;
 }

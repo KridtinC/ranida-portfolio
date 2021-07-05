@@ -6,7 +6,7 @@ function Info() {
         <div className="info-container">
             <div className="profile-container">
                 <div className="profile-title-container">
-                    <p className="profile-title">HELLO!<br></br>I AM <b>RANIDA</b></p>
+                    <p className="profile-title">HELLO!<br></br>I AM <b className="profile-title-name">RANIDA</b></p>
                     <p className="profile-info">My name is Ranida Pithinattadet. I am a Thai Designer based in Thailand. The personality test shows that I am a kind of INFJ. I like to find various ways for facing creative challenges. I hope the information below help you know me better!</p>
                 </div>
                 <div className="profile-pic-container">

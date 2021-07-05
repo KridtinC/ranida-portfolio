@@ -30,3 +30,7 @@
     overflow: hidden;
     margin-left: 91px;
 }
+
+.app-router-bg {
+    background-color: white;
+}
