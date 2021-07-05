@@ -16,7 +16,7 @@ function AppRouter() {
             <div>
                 <nav className="navbar navbar-light fixed-top navbar-expand-sm navbar-size" data-aos="fade-down">
                     <a href="/">
-                        <img className="logo-properties" src={logo}></img>
+                        <img className="logo-properties" alt="" src={logo}></img>
                     </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
                         <span className="navbar-toggler-icon"></span>
