@@ -14,15 +14,15 @@ function AppRouter() {
     return (
         <BrowserRouter>
             <div>
-                <nav className="navbar navbar-light fixed-top navbar-expand-sm navbar-size navbar-bg" data-aos="fade-down">
+                <nav className="navbar navbar-light fixed-top navbar-expand-xl navbar-size navbar-bg" data-aos="fade-down">
                     <a href="/">
                         <img className="logo-properties" alt="" src={logo}></img>
                     </a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse mynavbar-link-container">
-                        <ul className="nav navbar-nav mx-auto navbar-bg">
+                    <div className="collapse navbar-collapse mynavbar-link-container navbar-bg">
+                        <ul className="nav navbar-nav mx-auto">
                             <Link className="navbar-brand navbar-link-item" to="/branding">BRANDING</Link>
                             <Link className="navbar-brand navbar-link-item" to="/illustration">ILLUSTRATION</Link>
                             <Link className="navbar-brand navbar-link-item" to="/advertising">ADVERTISING</Link>

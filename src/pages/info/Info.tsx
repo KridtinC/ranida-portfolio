@@ -73,43 +73,66 @@ function Info() {
                 <div className="skill-container">
                     <div className="skill-info">
                         <b className="edu-exp-title">CREATIVE SKILLS</b>
-                        <p className="edu-exp-info">BRANDING
-                            ILLUSTRATION
-                            ADVERTISING
-                            UX/UI DESIGN</p>
+                        <ul className="edu-exp-info">
+                            <li>BRANDING</li>
+                            <li>ILLUSTRATION</li>
+                            <li>ADVERTISING</li>
+                            <li>UX/UI DESIGN</li>
+                        </ul>
                     </div>
                     <div className="skill-info">
                         <b className="edu-exp-title">SOFTWARE SKILLS</b>
-                        <p className="edu-exp-info">Adobe Illustrator
-                            Adobe Photoshop
-                            Adobe InDesign
-                            Adobe Lightroom
-                            Figma</p>
+                        <ul className="edu-exp-info">
+                            <li>Adobe Illustrator</li>
+                            <li>Adobe Photoshop</li>
+                            <li>Adobe InDesign</li>
+                            <li>Adobe Lightroom</li>
+                            <li>Figma</li>
+                        </ul>
                     </div>
                     <div className="skill-info">
                         <b className="edu-exp-title">LANGUAGE</b>
-                        <p className="edu-exp-info">Thai (Mother Tongue)
-                            English (Upper Intermediate)
-                            Japanese (Beginner)</p>
+                        <ul className="edu-exp-info">
+                            <li>Thai (Mother Tongue)</li>
+                            <li>English (Upper Intermediate)</li>
+                            <li>Japanese (Beginner)</li>
+                        </ul>
                     </div>
                 </div>
             </div>
             <div className="contact-zigzag">
                 <img src={info1} alt="" />
             </div>
-            <div className="contact-email">
-                <div className="contact-header">
-                    <p className="contact-title" style={{ paddingLeft: "153px" }}>CONTACT ME</p>
-                </div>
-                <div className="contact-form">
-                    <div style={{ display: "flex" }}>
-                        <input type="text" />
-                        <input type="email" style={{marginLeft: "13px"}} />
+            <div className="contact-bg">
+                <div className="contact-container">
+                    <div className="contact-header">
+                        <p className="contact-title" style={{ paddingLeft: "9.1%" }}>CONTACT ME</p>
                     </div>
-
+                    <form className="contact-form">
+                        <div className="contact-name-email">
+                            <div className="contact-item">
+                                <span className="contact-form-label">Name<p style={{ color: "red" }}>*</p></span>
+                                <input className="contact-form-input" type="text" name="name" />
+                            </div>
+                            <div className="contact-item">
+                                <span className="contact-form-label">Email<p style={{ color: "red" }}>*</p></span>
+                                <input className="contact-form-input" type="email" name="email" />
+                            </div>
+                        </div>
+                        <div className="contact-item-full">
+                            <span className="contact-form-label">Subject<p style={{ color: "red" }}>*</p></span>
+                            <input className="contact-form-input" type="text" name="subject" />
+                        </div>
+                        <div className="contact-item-full">
+                            <textarea className="contact-item-full contact-form-input" name="detail" placeholder="Leave your message" rows={7} />
+                        </div>
+                        <div className="contact-item-full">
+                            <input className="contact-form-input" type="submit" value="Submit" />
+                        </div>
+                    </form>
                 </div>
-            </div>
 
+            </div>
         </div>
     )
 }
