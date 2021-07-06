@@ -1,0 +1,28 @@
+.home-container {
+    color: #091F2C;
+}
+
+.welcome-container {
+    width: 100%;
+    padding-top: 15.17%;
+    padding-bottom: 8.9%;
+    /* padding-left: 18.15%;
+    padding-right: 18.15%; */
+}
+
+.welcome-title {
+    font-size: 96px;
+    line-height: 100px;
+}
+
+.welcome-title-name {
+    font-family: 'MontserratBold';
+}
+
+.welcome-title-desc {
+    font-size: 36px;
+}
+
+.featured-container {
+    padding-bottom: 6.37%;
+}
