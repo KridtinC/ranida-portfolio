@@ -26,3 +26,13 @@
 .featured-container {
     padding-bottom: 6.37%;
 }
+
+@media screen and (max-width: 1200px) {
+    .welcome-title {
+        font-size: 72px;
+        line-height: 72px;
+    }
+    .welcome-title-desc {
+        font-size: 30px;
+    }
+}
