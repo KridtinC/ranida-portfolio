@@ -14,7 +14,7 @@ function AppRouter() {
     return (
         <BrowserRouter>
             <div>
-                <nav className="navbar navbar-light fixed-top navbar-expand-sm navbar-size app-router-bg" data-aos="fade-down">
+                <nav className="navbar navbar-light fixed-top navbar-expand-sm navbar-size navbar-bg" data-aos="fade-down">
                     <a href="/">
                         <img className="logo-properties" alt="" src={logo}></img>
                     </a>
@@ -22,7 +22,7 @@ function AppRouter() {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse mynavbar-link-container">
-                        <ul className="nav navbar-nav mx-auto">
+                        <ul className="nav navbar-nav mx-auto navbar-bg">
                             <Link className="navbar-brand navbar-link-item" to="/branding">BRANDING</Link>
                             <Link className="navbar-brand navbar-link-item" to="/illustration">ILLUSTRATION</Link>
                             <Link className="navbar-brand navbar-link-item" to="/advertising">ADVERTISING</Link>

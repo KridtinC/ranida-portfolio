@@ -1,6 +1,10 @@
 .navbar-size {
     height: 115px;
-    padding: 0px;
+    padding: 30px;
+}
+
+.navbar-bg {
+    background-color: white;
 }
 
 .mynavbar-link-container {
@@ -33,9 +37,5 @@
     height: 48px;
     position: relative;
     overflow: hidden;
-    margin-left: 91px;
-}
-
-.app-router-bg {
-    background-color: white;
+    /* margin-left: 91px; */
 }

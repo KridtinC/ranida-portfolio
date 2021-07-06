@@ -4,39 +4,12 @@
 }
 
 .profile-container {
-    height: 856px;
+    width: 100%;
     display: flex;
     align-items: center;
-    padding-left: 190px;
-    padding-right: 190px;
-}
-
-.profile-pic-container {
-    width: 50%;
-    justify-content: center;
-    display: flex;
-    height: max-content;
-}
-
-.profile-pic-border {
-    width: 532px;
-    height: 532px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-    margin: 15px;
-}
-
-.profile-pic-properties {
-    display: inline;
-    margin: 0 auto;
-    height: 100%;
-    width: auto;
-}
-
-.profile-title-container {
-    width: 50%;
-    justify-content: center;
+    padding-left: 11.3%;
+    padding-right: 11.3%;
+    padding-top: 10%;
 }
 
 .profile-title {
@@ -44,19 +17,87 @@
     line-height: 100px;
 }
 
-.profile-title-name {
-    font-family: 'MontserratBold';
-}
-
 .profile-info {
     font-size: 24px;
 }
 
 .profile-edu-exp-container {
-    height: 802px;
     display: flex;
-    padding-left: 190px;
-    padding-right: 190px;
+    padding-left: 11.3%;
+    padding-right: 11.3%;
+    padding-top: 10%;
+}
+
+.skill-background {
+    background-color: #091f2c1f;
+}
+
+.skill-container {
+    display: flex;
+    padding-left: 11.3%;
+    padding-right: 11.3%;
+    padding-top: 7%;
+}
+
+.contact-email {
+    background-color: #091F2C;
+    height: 670px;
+    position: relative;
+    top: -85px;
+    display: flex;
+}
+
+@media screen and (max-width: 1150px) {
+    .profile-container {
+        flex-direction: column-reverse;
+    }
+    .profile-title {
+        font-size: 72px;
+        line-height: 75px;
+    }
+    .profile-info {
+        font-size: 20px;
+    }
+    .profile-edu-exp-container {
+        flex-direction: column;
+    }
+    .skill-container {
+        flex-direction: column;
+    }
+    .contact-email {
+        flex-direction: column;
+    }
+}
+
+.profile-pic-container {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    height: max-content;
+    margin: 2%;
+}
+
+.profile-pic-border {
+    /* position: relative; */
+    /* overflow: hidden; */
+    /* border-radius: 50%; */
+    /* margin: 15px; */
+}
+
+img {
+    /* display: inline; */
+    /* margin: 0 auto; */
+    height: auto;
+    width: 100%;
+}
+
+.profile-title-container {
+    width: 50%;
+    justify-content: center;
+}
+
+.profile-title-name {
+    font-family: 'MontserratBold';
 }
 
 .profile-edu-container {
@@ -97,30 +138,20 @@
     color: #888888;
 }
 
-.skill-container {
-    height: 473px;
-    display: flex;
-    background-color: #091f2c1f;
-}
+
 
 .skill-info {
     width: 33.33%;
 }
 
 .contact-zigzag {
-    text-decoration:none;
+    text-decoration: none;
     position: relative;
     z-index: 10;
     top: -84px;
 }
 
-.contact-email {
-    background-color: #091F2C;
-    height: 670px;
-    position: relative;
-    top: -85px;
-    display: flex;
-}
+
 
 .contact-header {
     width: 40%;

@@ -69,8 +69,8 @@ function Info() {
                     </div>
                 </div>
             </div>
-            <div className="skill-container">
-                <div style={{ paddingLeft: "190px", paddingRight: "190px", display: "flex", paddingTop: "118px" }}>
+            <div className="skill-background">
+                <div className="skill-container">
                     <div className="skill-info">
                         <b className="edu-exp-title">CREATIVE SKILLS</b>
                         <p className="edu-exp-info">BRANDING
