@@ -30,7 +30,12 @@
     line-height: 100px;
 }
 
-.profile-info {
+.title-font-size {
+    font-size: 36px;
+    font-family: 'MontserratBold';
+}
+
+.desc-font-size {
     font-size: 24px;
 }
 
@@ -108,6 +113,12 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .title-font-size {
+        font-size: 30px;
+    }
+    .desc-font-size {
+        font-size: 20px;
+    }
     .profile-container {
         flex-direction: column-reverse;
     }
@@ -118,11 +129,8 @@
         width: 100%;
     }
     .profile-title {
-        font-size: 6vw;
-        line-height: 6vw;
-    }
-    .profile-info {
-        font-size: 2vw;
+        font-size: 72px;
+        line-height: 72px;
     }
     .profile-edu-exp-container {
         flex-direction: column;
@@ -167,24 +175,16 @@ img {
     font-family: 'MontserratBold';
 }
 
-.edu-exp-title {
-    font-size: 36px;
-    font-family: 'MontserratBold';
-}
-
 .edu-exp-container {
     display: flex;
 }
 
 .edu-exp-year {
-    font-size: 36px;
     color: #9DA5AB;
     width: 30%;
-    font-family: 'MontserratBold';
 }
 
 .edu-exp-info {
-    font-size: 24px;
     width: 70%;
     list-style-type: none;
     margin: 0px;
@@ -192,7 +192,6 @@ img {
 }
 
 .edu-exp-info-desc {
-    font-size: 24px;
     color: #888888;
 }
 
@@ -208,12 +207,8 @@ img {
 }
 
 .contact-title {
-    font-size: 36px;
-    font-family: 'MontserratBold';
     color: white;
 }
-
-
 
 .contact-form-label {
     display: flex;
