@@ -21,17 +21,17 @@ function Info() {
                     <p className="title-font-size"><b>EDUCATIONS</b></p>
                     <div className="edu-exp-container">
                         <b className="title-font-size edu-exp-year">2016-2019</b>
-                        <p className="desc-font-size edu-exp-info">B.F.A Media Arts, 1st class honors
+                        <div className="desc-font-size edu-exp-info">B.F.A Media Arts, 1st class honors
                             (Graphic Design Major)
                             GPA 3.78<br />
                             <p className="desc-font-size edu-exp-info-desc">King Mongkut’s University of
-                                Technology Thonburi</p></p>
+                                Technology Thonburi</p></div>
                     </div>
                     <div className="edu-exp-container">
                         <b className="title-font-size edu-exp-year">2013-2015</b>
-                        <p className="desc-font-size edu-exp-info">Senior high school
+                        <div className="desc-font-size edu-exp-info">Senior high school
                             Sciences-Mathematics (Computer)<br />
-                            <p className="desc-font-size edu-exp-info-desc">Horwang School</p></p>
+                            <p className="desc-font-size edu-exp-info-desc">Horwang School</p></div>
                     </div>
                     <div className="edu-exp-container">
                         <b className="title-font-size edu-exp-year">2009-2012</b>
@@ -44,28 +44,28 @@ function Info() {
                     <p className="title-font-size"><b>EXPERIENCES</b></p>
                     <div className="edu-exp-container">
                         <b className="title-font-size edu-exp-year">2021</b>
-                        <p className="desc-font-size edu-exp-info">Art director<br />
-                            <p className="desc-font-size edu-exp-info-desc">Rise Creative Space, Advertising Agency</p></p>
+                        <div className="desc-font-size edu-exp-info">Art director<br />
+                            <p className="desc-font-size edu-exp-info-desc">Rise Creative Space, Advertising Agency</p></div>
                     </div>
                     <div className="edu-exp-container">
                         <b className="title-font-size edu-exp-year">2020-2021</b>
-                        <p className="desc-font-size edu-exp-info">Graphic Designer<br />
-                            <p className="desc-font-size edu-exp-info-desc">Calm Outdoors, Clothing Brand</p></p>
+                        <div className="desc-font-size edu-exp-info">Graphic Designer<br />
+                            <p className="desc-font-size edu-exp-info-desc">Calm Outdoors, Clothing Brand</p></div>
                     </div>
                     <div className="edu-exp-container">
                         <b className="title-font-size edu-exp-year">2019</b>
-                        <p className="desc-font-size edu-exp-info">Graphic Designer (Internship)<br />
-                            <p className="desc-font-size edu-exp-info-desc">Practical Design Studio, Graphic Studio</p></p>
+                        <div className="desc-font-size edu-exp-info">Graphic Designer (Internship)<br />
+                            <p className="desc-font-size edu-exp-info-desc">Practical Design Studio, Graphic Studio</p></div>
                     </div>
                     <div className="edu-exp-container">
                         <b className="title-font-size edu-exp-year">2019</b>
-                        <p className="desc-font-size edu-exp-info">Graphic Designer<br />
-                            <p className="desc-font-size edu-exp-info-desc">Haroon Mosque Shop Makeover Project</p></p>
+                        <div className="desc-font-size edu-exp-info">Graphic Designer<br />
+                            <p className="desc-font-size edu-exp-info-desc">Haroon Mosque Shop Makeover Project</p></div>
                     </div>
                     <div className="edu-exp-container">
                         <b className="title-font-size edu-exp-year">2018</b>
-                        <p className="desc-font-size edu-exp-info">Graphic Designer and Administrator<br />
-                            <p className="desc-font-size edu-exp-info-desc">Readery, Online Bookstore</p></p>
+                        <div className="desc-font-size edu-exp-info">Graphic Designer and Administrator<br />
+                            <p className="desc-font-size edu-exp-info-desc">Readery, Online Bookstore</p></div>
                     </div>
                 </div>
             </div>
