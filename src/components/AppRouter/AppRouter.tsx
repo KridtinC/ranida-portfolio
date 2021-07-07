@@ -1,5 +1,5 @@
 import { Switch, Route } from "react-router";
-import { BrowserRouter, Link } from "react-router-dom";
+import { HashRouter, Link } from "react-router-dom";
 import Home from "../../pages/home/Home";
 import Info from "../../pages/info/Info";
 import './AppRouter.css'
@@ -12,7 +12,7 @@ const bodyPadding = {
 
 function AppRouter() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <div>
                 <nav className="navbar navbar-light fixed-top navbar-expand-xl navbar-size navbar-bg" data-aos="fade-down">
                     <Link to="/">
@@ -54,7 +54,7 @@ function AppRouter() {
                 </Switch>
             </div>
 
-        </BrowserRouter>
+        </HashRouter>
 
 
     );
