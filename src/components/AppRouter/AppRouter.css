@@ -3,6 +3,25 @@
     padding: 30px;
 }
 
+.logo-properties {
+    width: 48px;
+    height: 48px;
+    position: relative;
+    overflow: hidden;
+    /* margin-left: 91px; */
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar-size {
+        height: 80px;
+        padding: 20px;
+    }
+    .logo-properties {
+        width: 36px;
+        height: 36px;
+    }
+}
+
 .navbar-bg {
     background-color: white;
 }
@@ -32,10 +51,3 @@
     font-size: 15px;
 }
 
-.logo-properties {
-    width: 48px;
-    height: 48px;
-    position: relative;
-    overflow: hidden;
-    /* margin-left: 91px; */
-}

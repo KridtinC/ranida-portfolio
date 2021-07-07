@@ -112,12 +112,22 @@
     flex-direction: column;
 }
 
+.contact-form-label {
+    display: flex;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    line-height: 24px;
+    height: 24px;
+    font-size: 24px;
+    color: #fff;
+}
+
 @media screen and (max-width: 1200px) {
     .title-font-size {
-        font-size: 30px;
+        font-size: 1.3em;
     }
     .desc-font-size {
-        font-size: 20px;
+        font-size: 1em;
     }
     .profile-container {
         flex-direction: column-reverse;
@@ -129,17 +139,19 @@
         width: 100%;
     }
     .profile-title {
-        font-size: 72px;
-        line-height: 72px;
+        font-size: 2.5em;
+        line-height: 1em;
     }
     .profile-edu-exp-container {
         flex-direction: column;
     }
     .profile-edu-container {
         width: 100%;
+        margin-bottom: 5%;
     }
     .profile-exp-container {
         width: 100%;
+        margin-bottom: 5%;
     }
     .skill-container {
         flex-direction: column;
@@ -147,6 +159,7 @@
     }
     .skill-info {
         width: 100%;
+        margin-bottom: 5%;
     }
     .contact-container {
         flex-direction: column;
@@ -161,6 +174,10 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+    }
+    .contact-form-label {
+        line-height: 0.7em;
+        font-size: 0.7em;
     }
 }
 
@@ -208,16 +225,6 @@ img {
 
 .contact-title {
     color: white;
-}
-
-.contact-form-label {
-    display: flex;
-    margin-bottom: 5px;
-    text-transform: uppercase;
-    line-height: 24px;
-    height: 24px;
-    font-size: 24px;
-    color: #fff;
 }
 
 .contact-form-input {

@@ -6,9 +6,7 @@ import AOS from 'aos'
 
 function App() {
   useEffect(() => {
-    AOS.init({
-      // duration : 5000
-    });
+    AOS.init();
   }, []);
   return (
     <div className="App">

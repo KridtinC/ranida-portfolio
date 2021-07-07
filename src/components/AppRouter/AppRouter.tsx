@@ -15,9 +15,9 @@ function AppRouter() {
         <BrowserRouter>
             <div>
                 <nav className="navbar navbar-light fixed-top navbar-expand-xl navbar-size navbar-bg" data-aos="fade-down">
-                    <a href="/">
+                    <Link to="/">
                         <img className="logo-properties" alt="" src={logo}></img>
-                    </a>
+                    </Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -33,41 +33,24 @@ function AppRouter() {
                     </div>
                 </nav>
                 <Switch>
-                    <Route exact path="/">
-                        <div style={bodyPadding}>
+                    <div style={bodyPadding}>
+                        <Route exact path="/">
                             <Home />
-                        </div>
-                    </Route>
-                    <Route path="/branding">
-                        <div style={bodyPadding}>
-                            {/* <Works /> */}
-                        </div>
-                    </Route>
-                    <Route path="/illustration">
-                        <div style={bodyPadding}>
-                            {/* <About /> */}
-                        </div>
-                    </Route>
-                    <Route path="/advertising">
-                        <div style={bodyPadding}>
-                            {/* <About /> */}
-                        </div>
-                    </Route>
-                    <Route path="/uxui">
-                        <div style={bodyPadding}>
-                            {/* <About /> */}
-                        </div>
-                    </Route>
-                    <Route path="/others">
-                        <div style={bodyPadding}>
-                            {/* <About /> */}
-                        </div>
-                    </Route>
-                    <Route path="/info">
-                        <div style={bodyPadding}>
+                        </Route>
+                        <Route path="/branding">
+                        </Route>
+                        <Route path="/illustration">
+                        </Route>
+                        <Route path="/advertising">
+                        </Route>
+                        <Route path="/uxui">
+                        </Route>
+                        <Route path="/others">
+                        </Route>
+                        <Route path="/info">
                             <Info />
-                        </div>
-                    </Route>
+                        </Route>
+                    </div>
                 </Switch>
             </div>
 
