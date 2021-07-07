@@ -27,12 +27,43 @@
     padding-bottom: 6.37%;
 }
 
+.main-feature-container {
+    position: relative;
+}
+
+.overlapped-text {
+    position: absolute;
+    top: 50%;
+    right: 6%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    line-height: 20px;
+}
+
+.overlapped-title {
+    font-size: 36px;
+    font-family: 'MontserratBold';
+}
+
+.overlapped-detail {
+    font-size: 24px;
+}
+
 @media screen and (max-width: 1200px) {
     .welcome-title {
-        font-size: 72px;
-        line-height: 72px;
+        font-size: 7vw;
+        line-height: 7vw;
     }
     .welcome-title-desc {
-        font-size: 30px;
+        font-size: 3vw;
+    }
+    .overlapped-text {
+        line-height: 1vw;
+    }
+    .overlapped-title {
+        font-size: 3vw;
+    }
+    .overlapped-detail {
+        font-size: 2vw;
     }
 }

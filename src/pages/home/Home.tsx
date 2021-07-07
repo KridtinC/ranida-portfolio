@@ -11,7 +11,13 @@ function Home() {
                 <p className="welcome-title-desc">and here is my portfolio!</p>
             </div>
             <div className="featured-container">
-                <img src={featured1} alt="" />
+                <div className="main-feature-container">
+                    <img src={featured1} alt="" />
+                    <div className="overlapped-text" data-aos="fade-right">
+                        <p className="overlapped-title">2021 </p>
+                        <p className="overlapped-detail">Lastest work, LINE ดูดวง </p><p className="overlapped-detail">Brand Identity, UI Design</p>
+                    </div>
+                </div>
                 <img src={featured2} alt="" />
             </div>
         </div>
