@@ -22,6 +22,7 @@
     .navbar-nav {
         height: 100vh !important;
         justify-content: space-evenly;
+        padding-bottom: 12%;
     }
     .navbar-toggler {
         margin-right: 20px;
