@@ -122,6 +122,16 @@
     color: #fff;
 }
 
+.contact-form-input {
+    border-radius: 40px;
+    width: 100%;
+}
+
+.contact-form-textarea {
+    border-radius: 40px;
+    width: 100%;
+}
+
 @media screen and (max-width: 1200px) {
     .title-font-size {
         font-size: 1.3em;
@@ -137,6 +147,7 @@
     }
     .profile-title-container {
         width: 100%;
+        margin-top: 8%;
     }
     .profile-title {
         font-size: 2.5em;
@@ -176,8 +187,11 @@
         flex-direction: column;
     }
     .contact-form-label {
-        line-height: 0.7em;
+        /* line-height: 3em; */
         font-size: 0.7em;
+    }
+    .contact-form-textarea {
+        border-radius: 20px;
     }
 }
 
@@ -225,9 +239,4 @@ img {
 
 .contact-title {
     color: white;
-}
-
-.contact-form-input {
-    border-radius: 40px;
-    width: 100%;
 }

@@ -10,7 +10,7 @@ function Home() {
                 <p className="welcome-title">THIS IS <b className="welcome-title-name">RANIDA</b></p>
                 <p className="welcome-title-desc">and here is my portfolio!</p>
             </div>
-            <div className="featured-container">
+            <div className="featured-container" data-aos="fade-down">
                 <div className="main-feature-container">
                     <img src={featured1} alt="" />
                     <div className="overlapped-text" data-aos="fade-right">

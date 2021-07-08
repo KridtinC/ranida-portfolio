@@ -1,0 +1,21 @@
+import { useState } from "react"
+
+interface ImageProps {
+    className: string
+    source: string
+    alt: string
+}
+
+function Image(props: ImageProps) {
+    var [isLoading, setIsLoading] = useState(true)
+    return (
+        <div data-aos="fade-up">
+            {
+                isLoading ? <div className="spinner-grow" role="status" /> : null
+            }
+            <img className={props.className} src={props.source} alt={props.alt} onLoad={() => setIsLoading(false)} />
+        </div>
+    )
+}
+
+export default Image

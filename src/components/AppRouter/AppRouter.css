@@ -1,6 +1,5 @@
 .navbar-size {
     height: 115px;
-    padding: 30px;
 }
 
 .logo-properties {
@@ -8,30 +7,29 @@
     height: 48px;
     position: relative;
     overflow: hidden;
-    /* margin-left: 91px; */
+    margin-left: 91px;
 }
 
 @media screen and (max-width: 1200px) {
     .navbar-size {
         height: 80px;
-        padding: 20px;
     }
     .logo-properties {
         width: 36px;
         height: 36px;
+        margin-left: 20px;
+    }
+    .navbar-nav {
+        height: 100vh !important;
+        justify-content: space-evenly;
+    }
+    .navbar-toggler {
+        margin-right: 20px;
     }
 }
 
 .navbar-bg {
     background-color: white;
-}
-
-.mynavbar-link-container {
-    /* margin-left: 251px; */
-    /* margin-right: 390px; */
-    display: flex;
-    justify-content: space-between;
-    /* margin-top: 57px; */
 }
 
 .navbar-link-list {
@@ -44,10 +42,3 @@
     margin-right: 32px;
     font-weight: 700;
 }
-
-.navbar-link-item-last {
-    margin-right: 0px;
-    padding: 0px;
-    font-size: 15px;
-}
-

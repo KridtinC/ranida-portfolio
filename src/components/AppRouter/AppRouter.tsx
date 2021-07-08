@@ -26,7 +26,7 @@ function AppRouter() {
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="collapse navbar-collapse mynavbar-link-container navbar-bg" data-toggle="collapse" data-target=".navbar-collapse">
+                    <div className="collapse navbar-collapse navbar-bg" data-toggle="collapse" data-target=".navbar-collapse">
                         <ul className="nav navbar-nav mx-auto">
                             <Link className="navbar-brand navbar-link-item" to="/branding">BRANDING</Link>
                             <Link className="navbar-brand navbar-link-item" to="/illustration">ILLUSTRATION</Link>

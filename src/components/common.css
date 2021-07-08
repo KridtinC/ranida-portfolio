@@ -1,0 +1,16 @@
+.image-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-col {
+    flex: 50%;
+    max-width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .image-col {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
