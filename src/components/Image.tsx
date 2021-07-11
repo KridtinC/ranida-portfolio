@@ -1,12 +1,12 @@
 import { useState } from "react"
 
 interface ImageProps {
-    className: string
+    className?: string
     source: string
-    alt: string
+    alt?: string
 }
 
-function Image(props: ImageProps) {
+const Image = (props: ImageProps) => {
     var [isLoading, setIsLoading] = useState(true)
     return (
         <div data-aos="fade-up">
@@ -18,4 +18,6 @@ function Image(props: ImageProps) {
     )
 }
 
-export default Image
+export {
+    Image,
+}

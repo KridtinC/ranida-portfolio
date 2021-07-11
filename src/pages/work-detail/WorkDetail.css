@@ -1,0 +1,35 @@
+.work-text-container {
+    display: flex;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-top: 6.9%;
+    padding-bottom: 6.9%;
+}
+
+.work-title {
+    width: 40%;
+    text-align: left;
+}
+
+.work-title-name {
+    font-family: 'MontserratBold';
+    font-size: 36px;
+}
+
+.work-title-role {
+    font-size: 24px;
+}
+
+.work-description {
+    width: 60%;
+    text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+    .work-title {
+        width: 100%;
+    }
+    .work-description {
+        width: 100%;
+    }
+}

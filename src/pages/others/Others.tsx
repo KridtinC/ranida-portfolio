@@ -1,20 +1,35 @@
 import './Others.css'
+import '../common.css'
+import { DataMap } from '../../components/Sources'
+import { Image } from '../../components/Image'
+import { useRouteMatch } from 'react-router'
+import { Link } from 'react-router-dom'
 
-import o1 from '../../assets/others/o1.png'
-import o2 from '../../assets/others/o2.png'
-import o3 from '../../assets/others/o3.png'
-import bdarkgrey from '../../assets/decorations/bdarkgrey.png'
-import Images from '../../components/Images'
-
-const sources: string[][] = [[o1, o2], [o3, bdarkgrey]]
+const work: string[][] = [["calm-outdoors", "alois"], ["a-cup-of-chiangrai", "blankgrey"]]
 
 function Others() {
+    let { url } = useRouteMatch();
     return (
         <div>
             <div className="header-container" data-aos="fade-down">
                 OTHERS
             </div>
-            <Images sources={sources}></Images>
+            {
+                work.map((row) => {
+                    return <div className="row">
+                        {
+                            row.map((col) => {
+                                return <div className="col">
+                                    <Link to={`${url}${DataMap.get(col)!!.url}`}>
+                                        <Image source={DataMap.get(col)!!.coverImgURL}></Image>
+                                    </Link>
+                                </div>
+
+                            })
+                        }
+                    </div>
+                })
+            }
         </div>
     )
 }

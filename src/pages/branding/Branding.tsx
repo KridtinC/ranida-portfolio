@@ -1,21 +1,35 @@
 import './Branding.css'
+import '../common.css'
+import { DataMap } from '../../components/Sources'
+import { Image } from '../../components/Image'
+import { useRouteMatch } from 'react-router'
+import { Link } from 'react-router-dom'
 
-import b1 from '../../assets/branding/b1.png'
-import b2 from '../../assets/branding/b2.png'
-import b3 from '../../assets/branding/b3.png'
-import bgrey from '../../assets/decorations/bgrey.png'
-import bdarkgrey from '../../assets/decorations/bdarkgrey.png'
-import Images from '../../components/Images'
-
-const sources: string[][] = [[b1, b2], [b3, bgrey], [bgrey, bdarkgrey]]
+const work: string[][] = [["line-doo-duong", "t-time"], ["agnostic", "blankgrey"], ["blankgrey", "blankdgrey"]]
 
 function Branding() {
+    let { url } = useRouteMatch();
     return (
         <div>
             <div className="header-container" data-aos="fade-down">
                 BRANDING
             </div>
-            <Images sources={sources}></Images>
+            {
+                work.map((row) => {
+                    return <div className="row">
+                        {
+                            row.map((col) => {
+                                return <div className="col">
+                                    <Link to={`${url}${DataMap.get(col)!!.url}`}>
+                                        <Image source={DataMap.get(col)!!.coverImgURL}></Image>
+                                    </Link>
+                                </div>
+
+                            })
+                        }
+                    </div>
+                })
+            }
         </div>
     )
 }

@@ -1,21 +1,35 @@
 import './Illustration.css'
+import '../common.css'
+import { DataMap } from '../../components/Sources'
+import { Image } from '../../components/Image'
+import { useRouteMatch } from 'react-router'
+import { Link } from 'react-router-dom'
 
-import i1 from '../../assets/illustration/i1.png'
-import i2 from '../../assets/illustration/i2.png'
-import i3 from '../../assets/illustration/i3.png'
-import bgrey from '../../assets/decorations/bgrey.png'
-import bdarkgrey from '../../assets/decorations/bdarkgrey.png'
-import Images from '../../components/Images'
-
-const sources: string[][] = [[i1, i2], [i3, bgrey], [bgrey, bdarkgrey]]
+const work: string[][] = [["the-writer-project", "shell-eco-marathon"], ["synphaet", "blankgrey"], ["blankgrey", "blankdgrey"]]
 
 function Illustration() {
+    let { url } = useRouteMatch();
     return (
         <div>
             <div className="header-container" data-aos="fade-down">
                 ILLUSTRATION
             </div>
-            <Images sources={sources}></Images>
+            {
+                work.map((row) => {
+                    return <div className="row">
+                        {
+                            row.map((col) => {
+                                return <div className="col">
+                                    <Link to={`${url}${DataMap.get(col)!!.url}`}>
+                                        <Image source={DataMap.get(col)!!.coverImgURL}></Image>
+                                    </Link>
+                                </div>
+
+                            })
+                        }
+                    </div>
+                })
+            }
         </div>
     )
 }

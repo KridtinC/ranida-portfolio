@@ -1,7 +1,7 @@
 import './Info.css'
 import profilePic from '../../assets/pic.png'
 import info1 from '../../assets/decorations/info-1.png'
-import Image from '../../components/Image'
+import { Image } from '../../components/Image'
 
 
 
@@ -19,7 +19,7 @@ function Info() {
                 </div>
                 <div className="profile-pic-container">
                     <div className="profile-pic-border">
-                        <Image className="profile-pic-properties" source={profilePic} alt=""></Image>
+                        <Image className="profile-pic-properties" source={profilePic}></Image>
                     </div>
                 </div>
             </div>

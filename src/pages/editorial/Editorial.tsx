@@ -1,22 +1,35 @@
 import './Editorial.css'
+import '../common.css'
+import { Image } from '../../components/Image'
+import { useRouteMatch } from 'react-router'
+import { Link } from 'react-router-dom'
+import { DataMap } from '../../components/Sources'
 
-import e1 from '../../assets/editorial/e1.png'
-import e2 from '../../assets/editorial/e2.png'
-import e3 from '../../assets/editorial/e3.png'
-import e4 from '../../assets/editorial/e4.png'
-import e5 from '../../assets/editorial/e5.png'
-import e6 from '../../assets/editorial/e6.png'
-import Images from '../../components/Images'
-
-const sources: string[][] = [[e1, e2], [e3, e4], [e5, e6]]
+const work: string[][] = [["creed", "sani-system"], ["sani-system2", "thon-thong-time"], ["korkongsai", "hiabup"]]
 
 function Editorial() {
+    let { url } = useRouteMatch();
     return (
         <div>
             <div className="header-container" data-aos="fade-down">
                 EDITORIAL
             </div>
-            <Images sources={sources}></Images>
+            {
+                work.map((row) => {
+                    return <div className="row">
+                        {
+                            row.map((col) => {
+                                return <div className="col">
+                                    <Link to={`${url}${DataMap.get(col)!!.url}`}>
+                                        <Image source={DataMap.get(col)!!.coverImgURL}></Image>
+                                    </Link>
+                                </div>
+
+                            })
+                        }
+                    </div>
+                })
+            }
         </div>
     )
 }
