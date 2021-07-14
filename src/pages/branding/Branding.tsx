@@ -5,7 +5,7 @@ import { Image } from '../../components/Image'
 import { useRouteMatch } from 'react-router'
 import { Link } from 'react-router-dom'
 
-const work: string[][] = [["line-doo-duong", "t-time"], ["agnostic", "blankgrey"], ["blankgrey", "blankdgrey"]]
+const work: string[][] = [["line-doo-duong", "t-time"], ["agnostic", "book-blind-date"], ["a-cup-of-chiangrai", "haroon"]]
 
 function Branding() {
     let { url } = useRouteMatch();

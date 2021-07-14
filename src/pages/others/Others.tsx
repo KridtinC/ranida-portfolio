@@ -5,7 +5,7 @@ import { Image } from '../../components/Image'
 import { useRouteMatch } from 'react-router'
 import { Link } from 'react-router-dom'
 
-const work: string[][] = [["calm-outdoors", "alois"], ["a-cup-of-chiangrai", "blankgrey"]]
+const work: string[][] = [["calm-outdoors", "alois"], ["dino-clamp", "maelieb"]]
 
 function Others() {
     let { url } = useRouteMatch();

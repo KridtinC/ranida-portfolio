@@ -5,7 +5,7 @@ import { useRouteMatch } from 'react-router'
 import { Link } from 'react-router-dom'
 import { DataMap } from '../../components/Sources'
 
-const work: string[][] = [["creed", "sani-system"], ["sani-system2", "thon-thong-time"], ["korkongsai", "hiabup"]]
+const work: string[][] = [["creed", "sani-system"], ["thon-thong-time", "fibonacci"], ["kor-kong-sai", "type-founder"]]
 
 function Editorial() {
     let { url } = useRouteMatch();
