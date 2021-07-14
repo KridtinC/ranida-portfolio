@@ -23,6 +23,10 @@
     font-size: 36px;
 }
 
+.welcome-title-desc-font {
+    font-family: 'PlayfairDisplay';
+}
+
 .featured-container {
     padding-bottom: 6.37%;
 }
