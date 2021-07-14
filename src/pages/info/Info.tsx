@@ -2,12 +2,28 @@ import './Info.css'
 import profilePic from '../../assets/pic.png'
 import info1 from '../../assets/decorations/info-1.png'
 import { Image } from '../../components/Image'
-
-
+import emailjs from 'emailjs-com';
+import { useState } from 'react';
+import { Modal } from '../../components/Modal';
 
 function Info() {
+    var [showPopup, setShowPopup] = useState(false);
+    var [err, setErr] = useState("Default");
     var onSubmit = (event: any) => {
         event.preventDefault();
+
+        emailjs.sendForm(process.env.REACT_APP_EMAILJS_SERVICE_ID!!, process.env.REACT_APP_EMAILJS_TEMPLATE_ID!!, event.target, process.env.REACT_APP_EMAILJS_USER_ID!!)
+            .then((result) => {
+                console.log(result.text);
+                setErr("Send success.");
+            }, (error) => {
+                console.log(error.text);
+                setErr("Cannot send email. Please try again later.");
+            });
+        setShowPopup(true);
+        return (
+            <Modal isShow={showPopup} err={err}></Modal>
+        )
     }
 
     return (
@@ -119,7 +135,7 @@ function Info() {
                         <div className="contact-name-email">
                             <div className="contact-item">
                                 <span className="contact-form-label">Name<p style={{ color: "red" }}>*</p></span>
-                                <input className="contact-form-input" type="text" name="name" />
+                                <input className="contact-form-input" type="text" name="from_name" />
                             </div>
                             <div className="contact-item">
                                 <span className="contact-form-label">Email<p style={{ color: "red" }}>*</p></span>
@@ -134,7 +150,7 @@ function Info() {
                             <textarea className="contact-item-full contact-form-textarea" name="detail" placeholder="Leave your message" rows={7} />
                         </div>
                         <div className="contact-item-full">
-                            <button className="contact-form-input">Submit</button>
+                            <button className="contact-form-input" data-toggle="modal" data-target=".contact-popup">Submit</button>
                         </div>
                     </form>
                 </div>

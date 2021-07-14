@@ -5,12 +5,14 @@ import Footer from './components/footer/Footer';
 import AOS from 'aos'
 import Body from './Body';
 import { HashRouter } from 'react-router-dom';
+import emailjs from 'emailjs-com';
 
 function App() {
   useEffect(() => {
     AOS.init({
       duration: 1500
     });
+    emailjs.init(process.env.REACT_APP_EMAILJS_USER_ID!!);
   }, []);
   return (
     <HashRouter>
