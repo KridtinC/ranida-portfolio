@@ -1,6 +1,11 @@
 import './Home.css'
-import featured1 from '../../assets/home/featured1.png'
-import featured2 from '../../assets/home/featured2.png'
+import { Image } from '../../components/Image'
+import { Link } from 'react-router-dom'
+import { DataMap } from '../../components/Sources'
+import path from 'path'
+
+const firstWork: string = "line-horoscope"
+const work: string[][] = [["t-time-featured", "riceit-featured"], ["a-cup-of-chiangrai-featured", "creed-featured"]]
 
 function Home() {
     return (
@@ -12,13 +17,30 @@ function Home() {
             </div>
             <div className="featured-container" data-aos="fade-down">
                 <div className="main-feature-container">
-                    <img src={featured1} alt="" />
+                    <Link to={path.join('works', DataMap.get(firstWork)!!.url)}>
+                        <Image source={DataMap.get(firstWork)!!.coverImgURL}></Image>
+                    </Link>
                     <div className="overlapped-text" data-aos="fade-right">
                         <p className="overlapped-title">2021 </p>
                         <p className="overlapped-detail">Lastest work, LINE ดูดวง </p><p className="overlapped-detail">Brand Identity, UI Design</p>
                     </div>
                 </div>
-                <img src={featured2} alt="" />
+                {
+                    work.map((row) => {
+                        return <div className="row">
+                            {
+                                row.map((col) => {
+                                    return <div className="col">
+                                        <Link to={path.join('works', DataMap.get(col)!!.url)}>
+                                            <Image source={DataMap.get(col)!!.coverImgURL}></Image>
+                                        </Link>
+                                    </div>
+
+                                })
+                            }
+                        </div>
+                    })
+                }
             </div>
         </div>
     )

@@ -27,7 +27,7 @@ import riceit1 from '../assets/illustration/riceit/riceit1.png'
 import riceit2 from '../assets/illustration/riceit/riceit2.png'
 import riceit3 from '../assets/illustration/riceit/riceit3.png'
 
-import { WorkDetailProps } from '../pages/work-detail/WorkDetail'
+import { Role, WorkDetailProps } from '../pages/work-detail/WorkDetail'
 
 const twpImgSources: string[] = [twp1, twp2, twp3]
 const synphaetImgSources: string[] = [synphaet1, synphaet2, synphaet3]
@@ -40,42 +40,57 @@ const TheWriterProjectData: WorkDetailProps = {
     url: "/the-writer-project",
     coverImgURL: i1,
     imgSources: twpImgSources,
-    workName: 'The Writer Project',
+    workName: 'THE WRITER PROJECT',
+    role: Role.GraphicDesigner,
+    description: 'There is an illustration of 4 writers for Readery, online bookstore. The illustrations are designed to call for attention and to assemble an intersting content about writers.'
 }
 
 const SynPhaetData: WorkDetailProps = {
     url: "/synphaet",
     coverImgURL: i2,
     imgSources: synphaetImgSources,
-    workName: 'Synphaet',
+    workName: `SYNPHAET SERIRAK\n\
+    HOSPITAL`,
+    role: Role.GraphicDesigner,
+    description: 'To promote that Synphaet Serirak Hospital is a general and professional hospital. There are some always-on-content for Synphaet Serirak Hospital.'
 }
 
 const IkuraData: WorkDetailProps = {
     url: "/ikura",
     coverImgURL: i3,
     imgSources: ikuraImgSource,
-    workName: 'Ikura',
+    workName: 'IKURA ARMY',
+    role: Role.ArtDirector,
+    description: 'IKURA ARMY was born from the idea of ​​ making people smile. One day, I walked past the guardhouse and I feel that it look like sushi. After that IKURA ARMY has taken an invasion.'
 }
 
 const ArtHistoryData: WorkDetailProps = {
     url: "/art-history",
     coverImgURL: i4,
     imgSources: artHistImgSources,
-    workName: 'Art History',
+    workName: `ART HISTORY\n\
+    WORKSHOP`,
+    role: Role.GraphicDesigner,
+    description: 'It is Key Visual for M>O>V>E Design based learning program’s work shop. The 11th work shop is about Art History. The change made the era change so, the design came with master piece which came frome  Avant-Garde artists.'
 }
 
 const NTMYData: WorkDetailProps = {
     url: "/nice-to-meet-you",
     coverImgURL: i5,
     imgSources: ntmyImgSources,
-    workName: 'Nice to Meet You',
+    workName: `NICE TO MEET YOU\n\
+    WORKSHOP`,
+    role: Role.GraphicDesigner,
+    description: 'It is Key Visual for M>O>V>E Design based learning program’s work shop. The first work shop is where participants meet each others, so the design came with greetings in various forms such as bowing or waving.'
 }
 
 const RiceitData: WorkDetailProps = {
     url: "/riceit",
     coverImgURL: i6,
     imgSources: riceitImgSouce,
-    workName: 'Riceit',
+    workName: 'RICE IT',
+    role: Role.ArtDirector,
+    description: 'There are Corporate Identity, stationery, packaging, and menu for Rice it, rice planting kit for urban people. We design key visual with 3 various rice characters, brown rice, riceberry, Khao Sao Hai. '
 }
 
 export {

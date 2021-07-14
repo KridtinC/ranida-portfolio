@@ -15,7 +15,7 @@ import agnosticUI1 from '../assets/uxui/agnostic-ui/agnostic-ui1.png'
 import agnosticUI2 from '../assets/uxui/agnostic-ui/agnostic-ui2.png'
 import agnosticUI3 from '../assets/uxui/agnostic-ui/agnostic-ui3.png'
 
-import { WorkDetailProps } from '../pages/work-detail/WorkDetail'
+import { Role, WorkDetailProps } from '../pages/work-detail/WorkDetail'
 import { lddImgSources } from './BrandingSources'
 
 const kblpImgSources: string[] = [kblp1, kblp2, kblp3]
@@ -23,7 +23,7 @@ const lpbImgSources: string[] = [lpb1, lpb2, lpb3]
 const agnosticUIImgSources: string[] = [agnosticUI1, agnosticUI2, agnosticUI3]
 
 const LDD2Data: WorkDetailProps = {
-    url: "/line-doo-duong",
+    url: "/line-horoscope",
     coverImgURL: u1,
     imgSources: lddImgSources,
     workName: 'LINE ดูดวง',
@@ -47,7 +47,9 @@ const Agnostic2Data: WorkDetailProps = {
     url: "/agnostic-ui",
     coverImgURL: u4,
     imgSources: agnosticUIImgSources,
-    workName: 'Agnostic',
+    workName: 'AGNOSTIC',
+    role: Role.ArtDirectorAndGraphic,
+    description: 'In the concept of “The Connector”, being a center networking for businesses, we designed corporate identity, stationery, and UX/UI for Agnostic fund.'
 }
 
 export {

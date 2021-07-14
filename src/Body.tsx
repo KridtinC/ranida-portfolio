@@ -13,15 +13,11 @@ const Body = () => {
         <Route exact path="/">
             <Home />
         </Route>
-        <Route path={`/branding/:workURL`} component={WorkDetail} />
+        <Route path={`/works/:workURL`} component={WorkDetail} />
         <Route path="/branding" component={Branding} />
-        <Route path={`/illustration/:workURL`} component={WorkDetail} />
         <Route path="/illustration" component={Illustration} />
-        <Route path={`/editorial/:workURL`} component={WorkDetail} />
         <Route path="/editorial" component={Editorial} />
-        <Route path={`/uxui/:workURL`} component={WorkDetail} />
         <Route path="/uxui" component={UXUI} />
-        <Route path={`/others/:workURL`} component={WorkDetail} />
         <Route path="/others" component={Others} />
         <Route path="/info" component={Info} />
     </Switch>

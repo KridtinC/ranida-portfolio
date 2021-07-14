@@ -12,6 +12,13 @@ interface WorkDetailProps {
     description?: string
 }
 
+enum Role {
+    GraphicDesigner = "GRAPHIC DESIGNER",
+    ArtDirector = "ART DIRECTOR",
+    ArtDirectorAndGraphic = `ART DIRECTOR &\n\
+    GRAPHIC DESIGNER`
+}
+
 const WorkDetail = () => {
     let { workURL } = useParams() as {
         workURL: string;
@@ -32,10 +39,10 @@ const WorkDetail = () => {
         <div className="row work-text-container">
             <div className="work-title" data-aos="fade-up">
                 {
-                    data.workName ? <p className="work-title-name">{data.workName}</p> : <p className="work-title-name">NAME OF WORK</p>
+                    data.workName ? <p className="work-title-name" style={{ whiteSpace: "pre-line" }}>{data.workName}</p> : <p className="work-title-name">NAME OF WORK</p>
                 }
                 {
-                    data.role ? <p className="work-title-role">ROLE: {data.role}</p> : <p className="work-title-role">ROLE: role</p>
+                    data.role ? <p className="work-title-role" style={{ whiteSpace: "pre-line" }}>ROLE: {data.role}</p> : <p className="work-title-role">ROLE: role</p>
                 }
             </div>
             <div className="work-description" data-aos="fade-up">
@@ -50,6 +57,10 @@ const WorkDetail = () => {
 }
 
 export default WorkDetail
+
+export {
+    Role
+}
 
 export type {
     WorkDetailProps

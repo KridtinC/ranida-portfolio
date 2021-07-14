@@ -31,7 +31,7 @@ import haroon1 from '../assets/branding/haroon/haroon1.png'
 import haroon2 from '../assets/branding/haroon/haroon2.png'
 import haroon3 from '../assets/branding/haroon/haroon3.png'
 
-import { WorkDetailProps } from '../pages/work-detail/WorkDetail'
+import { Role, WorkDetailProps } from '../pages/work-detail/WorkDetail'
 
 const lddImgSources: string[] = [ldd1, ldd2, ldd3]
 const ttimeImgSources: string[] = [ttime1, ttime2, ttime3]
@@ -41,48 +41,60 @@ const acocImgSources: string[] = [acoc1, acoc2, acoc3]
 const haroonImgSources: string[] = [haroon1, haroon2, haroon3]
 
 const LDDData: WorkDetailProps = {
-    url: "/line-doo-duong",
+    url: "/line-horoscope",
     coverImgURL: b1,
     imgSources: lddImgSources,
-    workName: 'LINE ดูดวง',
-    role: 'Art Director',
+    workName: `LINE HOROSCOPE\n\
+    COPERATE IDENTITY`,
+    role: Role.ArtDirector,
+    description: 'This re-branding project comes with new characters of LINE ดูดวง.  “The Movement of The Star” is the key concept of this project, so the color palette imitates northern light. '
 }
 
 const TTimeData: WorkDetailProps = {
     url: "/t-time",
     coverImgURL: b2,
     imgSources: ttimeImgSources,
-    workName: 'T-Time Dimsum',
-    role: 'Graphic Designer',
+    workName: `T-TIME DIMSUM\n\
+    CORPERATE IDENTITY`,
+    role: Role.GraphicDesigner,
+    description: 'There are Corporate Identity, mascot, packaging, and menu  for T-Time Dimsum, a dim sum franchise.  The design comes with Lion Mascot which has Botan, or Peony flower, on top of its head. The flower means good fortune, riches, honor, and compassion.'
 }
 
 const AgnosticData: WorkDetailProps = {
     url: "/agnostic",
     coverImgURL: b3,
     imgSources: agnosticImgSources,
-    workName: 'Agnostic',
-    role: 'Graphic Designer',
+    workName: 'AGNOSTIC FUND',
+    role: Role.ArtDirector,
+    description: 'In the concept of “The Connector”, being a center networking for businesses, we designed corporate identity, stationery, and UX/UI for Agnostic fund.'
 }
 
 const BookBlindDateData: WorkDetailProps = {
     url: "/book-blind-date",
     coverImgURL: b4,
     imgSources: bbbImgSources,
-    workName: 'Book Blind Date',
+    workName: 'BOOK BLIND DATE',
+    role: Role.ArtDirector,
+    description: 'The festival about blind dates with books before: books wrapped in brown paper with a few keywords or a review on the outside to indicate what kind of surprise the reader might be in for. There is coperate identity for the festival!'
 }
 
 const ACupOfChaingRaiData: WorkDetailProps = {
     url: "/a-cup-of-chiangrai",
     coverImgURL: b5,
     imgSources: acocImgSources,
-    workName: 'A Cup of Chiang Rai',
+    workName: 'A CUP OF CHIANGRAI',
+    role: Role.ArtDirector,
+    description: '‘A cup of Chiangrai’ came from 2 keyword, delicious and northen Thailand. Delicious food is the product of delicate work. That is why I selected using paper-cut to be the art direction.'
 }
 
 const HaroonData: WorkDetailProps = {
     url: "/haroon",
     coverImgURL: b6,
     imgSources: haroonImgSources,
-    workName: 'Haroon',
+    workName: `HAROON MOSQUE\n\
+    RE-BRANDING PROJECT`,
+    role: Role.GraphicDesigner,
+    description: 'To promote the economy and develop the community, Haroon Mosque Re-Branding Project. The project was created through the collaboration of Trawell, TCDC, and volunteer designers. We design based on the idea of sustainable design and the community owns their space, so they have joined some part of the design.'
 }
 
 const BlankGreyData: WorkDetailProps = {

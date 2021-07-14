@@ -29,7 +29,7 @@ import tf1 from '../assets/editorial/type-founder/type-founder1.png'
 import tf2 from '../assets/editorial/type-founder/type-founder2.png'
 import tf3 from '../assets/editorial/type-founder/type-founder3.png'
 
-import { WorkDetailProps } from '../pages/work-detail/WorkDetail'
+import { Role, WorkDetailProps } from '../pages/work-detail/WorkDetail'
 
 const creedImgSources: string[] = [creed1, creed2, creed3]
 const ssImgSources: string[] = [ss1, ss2, ss3]
@@ -49,7 +49,9 @@ const Sani1Data: WorkDetailProps = {
     url: "/sani-system",
     coverImgURL: e2,
     imgSources: ssImgSources,
-    workName: 'Sani System',
+    workName: 'SANI SYSTEMS',
+    role: Role.ArtDirector,
+    description: 'In the concept of “friend who cares ”, there are 3 items, Corporate Identity, leaflet, Company Profile, for Sani-Systems.'
 }
 
 const TTTData: WorkDetailProps = {
