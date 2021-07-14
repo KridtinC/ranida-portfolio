@@ -13,7 +13,9 @@ const Image = (props: ImageProps) => {
             {
                 isLoading ? <div className="spinner-grow" role="status" /> : null
             }
-            <img className={props.className} src={props.source} alt={props.alt} onLoad={() => setIsLoading(false)} />
+            <img className={props.className} src={props.source} alt={props.alt} onLoad={() => setIsLoading(false)} style={
+                isLoading ? { visibility: "hidden" } : { visibility: "visible" }
+            } />
         </div>
     )
 }
