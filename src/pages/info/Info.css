@@ -74,15 +74,14 @@
 
 .skill-container {
     display: flex;
-    padding-left: 7.2%;
-    padding-right: 7.2%;
+    padding-left: 16.2%;
+    padding-right: 9%;
     padding-top: 7%;
     padding-bottom: 13.3%;
 }
 
 .skill-info {
     width: 33.33%;
-    margin: 2%;
 }
 
 .contact-bg {
@@ -135,13 +134,20 @@
 }
 
 .contact-form-textarea {
-    border-radius: 40px;
+    border-radius: 20px;
     width: 100%;
+}
+
+input, button {
+    font-size: 18px;
 }
 
 @media screen and (max-width: 1200px) {
     .title-font-size {
-        font-size: 1.3em;
+        font-size: 1em;
+    }
+    .year-font-size {
+        font-size: 0.9em;
     }
     .desc-font-size {
         padding-right: 0px;
@@ -202,6 +208,9 @@
     .contact-form-textarea {
         border-radius: 20px;
     }
+    input, button {
+        font-size: 0.7em;
+    }
 }
 
 img {
@@ -217,6 +226,8 @@ img {
 
 .edu-exp-container {
     display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .edu-exp-year {
@@ -234,6 +245,7 @@ img {
 
 .edu-exp-info-desc {
     color: #888888;
+    margin: 0px;
 }
 
 .contact-zigzag {
@@ -249,4 +261,26 @@ img {
 
 .contact-title {
     color: white;
+}
+
+/* placeholder */
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font-size: 18px;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: 18px;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    font-size: 18px;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    font-size: 18px;
 }

@@ -16,7 +16,7 @@ function AppRouter() {
                     <Link className="navbar-brand navbar-link-item" to="/branding">BRANDING</Link>
                     <Link className="navbar-brand navbar-link-item" to="/illustration">ILLUSTRATION</Link>
                     <Link className="navbar-brand navbar-link-item" to="/editorial">EDITORIAL</Link>
-                    <Link className="navbar-brand navbar-link-item" to="/uxui" >UX/UI DESIGN</Link>
+                    <Link className="navbar-brand navbar-link-item" to="/uxui" >UX / UI DESIGN</Link>
                     <Link className="navbar-brand navbar-link-item" to="/others" >OTHERS</Link>
                     <Link className="navbar-brand navbar-link-item" to="/info">INFO</Link>
                 </ul>

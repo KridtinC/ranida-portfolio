@@ -17,7 +17,7 @@ import dino3 from '../assets/others/dino-clamp/dino-clamp3.png'
 import maelieb1 from '../assets/others/maelieb/maelieb1.png'
 import maelieb2 from '../assets/others/maelieb/maelieb2.png'
 
-import { WorkDetailProps } from '../pages/work-detail/WorkDetail'
+import { Role, WorkDetailProps } from '../pages/work-detail/WorkDetail'
 
 const calmImgSources: string[] = [co1, co2]
 const aloisImgSources: string[] = [alois1, alois2, alois3]
@@ -28,28 +28,37 @@ const CalmData: WorkDetailProps = {
     url: "/calm-outdoors",
     coverImgURL: o1,
     imgSources: calmImgSources,
-    workName: 'Calm Outdoors',
+    workName: `CALM OUTDOORS\n
+    T-SHIRTS`,
+    role: Role.GraphicDesigner,
+    description: 'I designed in concept “The Food in Camping”  for Calm Outdoors, Thai eco-friendly clothing brand. The design came with Calm Character, an elephant, that playing on the food.'
 }
 
 const AloisData: WorkDetailProps = {
     url: "/alois",
     coverImgURL: o2,
     imgSources: aloisImgSources,
-    workName: 'Alois',
+    workName: 'ALOIS',
+    role: Role.GraphicDesigner,
+    description: 'Alois came from the word Allure, which is name of dessert and word of happiness. Allure is a famous dessert in Phetchabun, Thailand. To promote the province, Khao Vang, one of Petchabun’s famouse place, is used as an illustration.'
 }
 
 const DinoData: WorkDetailProps = {
     url: "/dino-clamp",
     coverImgURL: o3,
     imgSources: dinoImgSources,
-    workName: 'Dino Clamp',
+    workName: 'DINO CLAMP',
+    role: Role.GraphicDesigner,
+    description: 'Dino Clamp’s packaging is designed for inspiring children. To make children more imagination, we selected dinosour and clamp the colorful plastic clamp on its back. Let’s children fun with it.'
 }
 
 const MaeliebData: WorkDetailProps = {
     url: "/maelieb",
     coverImgURL: o4,
     imgSources: maeliebImgSources,
-    workName: 'Maelieb',
+    workName: 'MAELIEB',
+    role: Role.GraphicDesigner,
+    description: 'It is one of an univerisity assignment, re-branding Thai ancient brand, Maelieb. Maelieb is a Thai ancient beewax brand. The design came with concept “Contemporary”.'
 }
 
 export {

@@ -16,7 +16,8 @@ enum Role {
     GraphicDesigner = "GRAPHIC DESIGNER",
     ArtDirector = "ART DIRECTOR",
     ArtDirectorAndGraphic = `ART DIRECTOR &\n\
-    GRAPHIC DESIGNER`
+    GRAPHIC DESIGNER`,
+    ArtDirectorAndEditor = "ART DIRECTOR & EDITOR"
 }
 
 const WorkDetail = () => {

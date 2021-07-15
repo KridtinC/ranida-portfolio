@@ -13,16 +13,19 @@
 
 .work-title-name {
     font-family: 'MontserratBold';
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .work-title-role {
-    font-size: 24px;
+    font-family: 'MontserratBold';
+    font-size: 18px;
+    color: #888888;
 }
 
 .work-description {
     width: 60%;
     text-align: left;
+    font-size: 18px;
 }
 
 @media screen and (max-width: 1200px) {

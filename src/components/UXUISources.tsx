@@ -33,14 +33,18 @@ const LinePointData: WorkDetailProps = {
     url: "/k-bank-line-points",
     coverImgURL: u2,
     imgSources: kblpImgSources,
-    workName: 'KBank x LINE POINTS',
+    workName: 'KBANK x LINE POINTS',
+    role: Role.GraphicDesigner,
+    description: 'There is video to make an awareness of KBANK LINE POINTS Credit Card and to inform its benefit. In this video my part is designing an mobile interface and all of storyboard.'
 }
 
 const LineShoppingData: WorkDetailProps = {
     url: "/line-points-back",
     coverImgURL: u3,
     imgSources: lpbImgSources,
-    workName: 'LINE Points Back',
+    workName: 'LINE POINTS BACK',
+    role: Role.GraphicDesigner,
+    description: 'There is video to make an awareness of LINE POINTS and to inform the message “1 POINTS = 1 BAHT”. In this video my part is designing an mobile interface and all of storyboard.'
 }
 
 const Agnostic2Data: WorkDetailProps = {

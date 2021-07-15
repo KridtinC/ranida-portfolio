@@ -42,7 +42,9 @@ const CreedData: WorkDetailProps = {
     url: "/creed",
     coverImgURL: e1,
     imgSources: creedImgSources,
-    workName: 'Creed',
+    workName: 'CREED FREE COPY',
+    role: Role.ArtDirectorAndEditor,
+    description: "The concept “Belief” came from an idea “Everyone's beliefs change every day”. Creed is free copy that talk about faith. To support the concept, we designed dynamic layouts and flashy colors."
 }
 
 const Sani1Data: WorkDetailProps = {
@@ -58,28 +60,38 @@ const TTTData: WorkDetailProps = {
     url: "/thon-thong-time",
     coverImgURL: e3,
     imgSources: tttImgSources,
-    workName: 'Thon Thong Time',
+    workName: 'THON THONG TIME',
+    role: Role.GraphicDesigner,
+    description: 'There is an brochure design for city walk trip name “Thon Thong Time”. It is one of Jlongsan Pop-up Park 2020, a transforming wasteland into public space project.'
 }
 
 const FibonacciData: WorkDetailProps = {
     url: "/fibonacci",
     coverImgURL: e4,
     imgSources: fiboImgSources,
-    workName: 'Fibonacci',
+    workName: `HAVE YOU EVER TRAVELED\n
+    WITH FIBONACCI ?`,
+    role: Role.GraphicDesigner,
+    description: 'A book about the trial of travel by Fibonacci Number to see street art from various artis in BUKRUK Festival.'
 }
 
 const KKSData: WorkDetailProps = {
     url: "/kor-kong-sai",
     coverImgURL: e5,
     imgSources: kksImgSources,
-    workName: 'Kor Kong Sai',
+    workName: `KOR KONG SAI\n
+    RE-DESIGN`,
+    role: Role.GraphicDesigner,
+    description: 'It is re-design all of S.E.A Write Book name “Kor Kong Sai”. It is only school project. The book talks about tumultuous life and compares life to a pile of sand that has been formed and destroyed by water. An llustrator of each chapter can be unfolded in the form of water waves.'
 }
 
 const TypeFounderData: WorkDetailProps = {
     url: "/type-founder",
     coverImgURL: e6,
     imgSources: tfImgSources,
-    workName: 'Type Founder',
+    workName: 'TYPE FOUNDER',
+    role: Role.GraphicDesigner,
+    description: 'Finding capital letter, small letter, and number of Romans typeface in Bang Pa In Palace.'
 }
 
 export {
