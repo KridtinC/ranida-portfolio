@@ -28,10 +28,10 @@ const CalmData: WorkDetailProps = {
     url: "/calm-outdoors",
     coverImgURL: o1,
     imgSources: calmImgSources,
-    workName: `CALM OUTDOORS\n
+    workName: `CALM OUTDOORS\n\
     T-SHIRTS`,
     role: Role.GraphicDesigner,
-    description: 'I designed in concept “The Food in Camping”  for Calm Outdoors, Thai eco-friendly clothing brand. The design came with Calm Character, an elephant, that playing on the food.'
+    description: 'These shirts was designed in the concept “The Food in Camping” for Calm Outdoors, Thai eco-friendly clothing brand. The design came with Calm character, an elephant, that playing on the food.'
 }
 
 const AloisData: WorkDetailProps = {
@@ -40,7 +40,7 @@ const AloisData: WorkDetailProps = {
     imgSources: aloisImgSources,
     workName: 'ALOIS',
     role: Role.GraphicDesigner,
-    description: 'Alois came from the word Allure, which is name of dessert and word of happiness. Allure is a famous dessert in Phetchabun, Thailand. To promote the province, Khao Vang, one of Petchabun’s famouse place, is used as an illustration.'
+    description: 'Alois came from the word Allure, which is name of dessert and word of happiness. Allure is a famous dessert in Phetchabun, Thailand. To promote the province, Khao Vang, one of Petchabun’s famous place, is used as an illustration.'
 }
 
 const DinoData: WorkDetailProps = {
@@ -49,7 +49,7 @@ const DinoData: WorkDetailProps = {
     imgSources: dinoImgSources,
     workName: 'DINO CLAMP',
     role: Role.GraphicDesigner,
-    description: 'Dino Clamp’s packaging is designed for inspiring children. To make children more imagination, we selected dinosour and clamp the colorful plastic clamp on its back. Let’s children fun with it.'
+    description: 'Dino Clamp’s packaging was designed for inspiring children. To make children have more imagination, we selected dinosour and the colorful plastic clamps on its back. Let’s children fun with it.'
 }
 
 const MaeliebData: WorkDetailProps = {
@@ -58,7 +58,7 @@ const MaeliebData: WorkDetailProps = {
     imgSources: maeliebImgSources,
     workName: 'MAELIEB',
     role: Role.GraphicDesigner,
-    description: 'It is one of an univerisity assignment, re-branding Thai ancient brand, Maelieb. Maelieb is a Thai ancient beewax brand. The design came with concept “Contemporary”.'
+    description: 'It was one of an university assignment, re-branding Thai ancient brand, Maelieb. Maelieb is a Thai ancient beewax brand. The design came with concept “Contemporary”.'
 }
 
 export {

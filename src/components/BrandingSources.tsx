@@ -84,7 +84,7 @@ const ACupOfChaingRaiData: WorkDetailProps = {
     imgSources: acocImgSources,
     workName: 'A CUP OF CHIANGRAI',
     role: Role.ArtDirector,
-    description: '‘A cup of Chiangrai’ came from 2 keyword, delicious and northen Thailand. Delicious food is the product of delicate work. That is why I selected using paper-cut to be the art direction.'
+    description: '‘A cup of Chiangrai’ came from 2 keywords, delicious and Northen Thailand. Delicious food is the product of delicate work. That is why I selected a paper-cut as the art direction.'
 }
 
 const HaroonData: WorkDetailProps = {
@@ -94,7 +94,7 @@ const HaroonData: WorkDetailProps = {
     workName: `HAROON MOSQUE\n\
     RE-BRANDING PROJECT`,
     role: Role.GraphicDesigner,
-    description: 'To promote the economy and develop the community, Haroon Mosque Re-Branding Project. The project was created through the collaboration of Trawell, TCDC, and volunteer designers. We design based on the idea of sustainable design and the community owns their space, so they have joined some part of the design.'
+    description: 'To promote the economy and develop the community, Haroon Mosque Re-Branding Project. The project was created through the collaboration of Trawell, TCDC, and volunteer designers. We designed based on the idea of sustainable design and the community owns their space, so they have joined some part of the design.'
 }
 
 const BlankGreyData: WorkDetailProps = {

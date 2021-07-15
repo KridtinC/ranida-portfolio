@@ -35,7 +35,7 @@ const LinePointData: WorkDetailProps = {
     imgSources: kblpImgSources,
     workName: 'KBANK x LINE POINTS',
     role: Role.GraphicDesigner,
-    description: 'There is video to make an awareness of KBANK LINE POINTS Credit Card and to inform its benefit. In this video my part is designing an mobile interface and all of storyboard.'
+    description: 'This is video which make an awareness of KBANK LINE POINTS Credit Card and to inform its benefits. In this video, my part is designing an mobile interface and all of storyboard.'
 }
 
 const LineShoppingData: WorkDetailProps = {
@@ -44,7 +44,7 @@ const LineShoppingData: WorkDetailProps = {
     imgSources: lpbImgSources,
     workName: 'LINE POINTS BACK',
     role: Role.GraphicDesigner,
-    description: 'There is video to make an awareness of LINE POINTS and to inform the message “1 POINTS = 1 BAHT”. In this video my part is designing an mobile interface and all of storyboard.'
+    description: 'This is video which make an awareness of LINE POINTS and to inform the message “1 POINTS = 1 BAHT”. In this video, my part is designing an mobile interface and all of storyboard.'
 }
 
 const Agnostic2Data: WorkDetailProps = {
@@ -53,7 +53,7 @@ const Agnostic2Data: WorkDetailProps = {
     imgSources: agnosticUIImgSources,
     workName: 'AGNOSTIC',
     role: Role.ArtDirectorAndGraphic,
-    description: 'In the concept of “The Connector”, being a center networking for businesses, we designed corporate identity, stationery, and UX/UI for Agnostic fund.'
+    description: 'In the concept of “The Connector”, being a center networking for businesses, we designed Corporate Identity, stationery, and UX/UI for Agnostic fund.'
 }
 
 export {

@@ -96,6 +96,7 @@ function Info() {
                         </div>
                         <div className="contact-item-full">
                             <button className="contact-form-input" data-toggle="modal" data-target=".contact-popup">Submit</button>
+                            <button className="contact-form-input" data-toggle="modal" data-target=".contact-popup">Just another submit button</button>
                         </div>
                     </form>
                 </div>

@@ -44,7 +44,7 @@ const CreedData: WorkDetailProps = {
     imgSources: creedImgSources,
     workName: 'CREED FREE COPY',
     role: Role.ArtDirectorAndEditor,
-    description: "The concept “Belief” came from an idea “Everyone's beliefs change every day”. Creed is free copy that talk about faith. To support the concept, we designed dynamic layouts and flashy colors."
+    description: "The concept “Belief” came from an idea “Everyone's belief changes every day”. Creed is free copy that talk about faith. To support the concept, we designed dynamic layouts and flashy colors."
 }
 
 const Sani1Data: WorkDetailProps = {
@@ -53,7 +53,7 @@ const Sani1Data: WorkDetailProps = {
     imgSources: ssImgSources,
     workName: 'SANI SYSTEMS',
     role: Role.ArtDirector,
-    description: 'In the concept of “friend who cares ”, there are 3 items, Corporate Identity, leaflet, Company Profile, for Sani-Systems.'
+    description: 'In the concept of “friend who cares ”, there are 3 items, Corporate Identity, leaflet, and Company Profile for Sani-Systems.'
 }
 
 const TTTData: WorkDetailProps = {
@@ -62,27 +62,27 @@ const TTTData: WorkDetailProps = {
     imgSources: tttImgSources,
     workName: 'THON THONG TIME',
     role: Role.GraphicDesigner,
-    description: 'There is an brochure design for city walk trip name “Thon Thong Time”. It is one of Jlongsan Pop-up Park 2020, a transforming wasteland into public space project.'
+    description: 'There is an brochure design for city walk trip name “Thon Thong Time”. It is one of Klongsan Pop-up Park 2020, a transforming wasteland into public space project.'
 }
 
 const FibonacciData: WorkDetailProps = {
     url: "/fibonacci",
     coverImgURL: e4,
     imgSources: fiboImgSources,
-    workName: `HAVE YOU EVER TRAVELED\n
+    workName: `HAVE YOU EVER TRAVELED\n\
     WITH FIBONACCI ?`,
     role: Role.GraphicDesigner,
-    description: 'A book about the trial of travel by Fibonacci Number to see street art from various artis in BUKRUK Festival.'
+    description: 'A book is about the trial of travel by Fibonacci Number to see street art from various artists in BUKRUK Festival.'
 }
 
 const KKSData: WorkDetailProps = {
     url: "/kor-kong-sai",
     coverImgURL: e5,
     imgSources: kksImgSources,
-    workName: `KOR KONG SAI\n
+    workName: `KOR KONG SAI\n\
     RE-DESIGN`,
     role: Role.GraphicDesigner,
-    description: 'It is re-design all of S.E.A Write Book name “Kor Kong Sai”. It is only school project. The book talks about tumultuous life and compares life to a pile of sand that has been formed and destroyed by water. An llustrator of each chapter can be unfolded in the form of water waves.'
+    description: 'It was re-designed all of S.E.A Write Book, name “Kor Kong Sai”. It was only school project. The book talks about tumultuous life and compares life to a pile of sand that has been formed and destroyed by water. An llustrator of each chapter can be unfolded in the form of water waves.'
 }
 
 const TypeFounderData: WorkDetailProps = {

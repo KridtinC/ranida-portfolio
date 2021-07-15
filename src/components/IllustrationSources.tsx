@@ -42,7 +42,7 @@ const TheWriterProjectData: WorkDetailProps = {
     imgSources: twpImgSources,
     workName: 'THE WRITER PROJECT',
     role: Role.GraphicDesigner,
-    description: 'There is an illustration of 4 writers for Readery, online bookstore. The illustrations are designed to call for attention and to assemble an intersting content about writers.'
+    description: 'There are illustrations of 4 writers for Readery, online bookstore. The illustrations are designed to call for attention and to assemble an interesting content about writers.'
 }
 
 const SynPhaetData: WorkDetailProps = {
@@ -52,7 +52,7 @@ const SynPhaetData: WorkDetailProps = {
     workName: `SYNPHAET SERIRAK\n\
     HOSPITAL`,
     role: Role.GraphicDesigner,
-    description: 'To promote that Synphaet Serirak Hospital is a general and professional hospital. There are some always-on-content for Synphaet Serirak Hospital.'
+    description: 'To promote that Synphaet Serirak Hospital is a general and professional hospital. There are some always-on content for Synphaet Serirak Hospital.'
 }
 
 const IkuraData: WorkDetailProps = {
@@ -61,7 +61,7 @@ const IkuraData: WorkDetailProps = {
     imgSources: ikuraImgSource,
     workName: 'IKURA ARMY',
     role: Role.ArtDirector,
-    description: 'IKURA ARMY was born from the idea of ​​ making people smile. One day, I walked past the guardhouse and I feel that it look like sushi. After that IKURA ARMY has taken an invasion.'
+    description: 'IKURA ARMY was born from the idea of making people smile. One day, I walked past the guardhouse and I felt that it look like sushi. After that IKURA ARMY has taken an invasion.'
 }
 
 const ArtHistoryData: WorkDetailProps = {
@@ -71,7 +71,7 @@ const ArtHistoryData: WorkDetailProps = {
     workName: `ART HISTORY\n\
     WORKSHOP`,
     role: Role.GraphicDesigner,
-    description: 'It is Key Visual for M>O>V>E Design based learning program’s work shop. The 11th work shop is about Art History. The change made the era change so, the design came with master piece which came frome  Avant-Garde artists.'
+    description: 'It is Key Visual for M>O>V>E Design based learning program’s workshop. The 11th workshop is about Art History. The change made the era change so, the design came with master piece which came frome  Avant-Garde artists.'
 }
 
 const NTMYData: WorkDetailProps = {
@@ -81,7 +81,7 @@ const NTMYData: WorkDetailProps = {
     workName: `NICE TO MEET YOU\n\
     WORKSHOP`,
     role: Role.GraphicDesigner,
-    description: 'It is Key Visual for M>O>V>E Design based learning program’s work shop. The first work shop is where participants meet each others, so the design came with greetings in various forms such as bowing or waving.'
+    description: 'It is Key Visual for M>O>V>E Design based learning program’s workshop. The first workshop is where participants meet each others, so the design came with greetings in various forms such as bowing or waving.'
 }
 
 const RiceitData: WorkDetailProps = {
@@ -90,7 +90,7 @@ const RiceitData: WorkDetailProps = {
     imgSources: riceitImgSouce,
     workName: 'RICE IT',
     role: Role.ArtDirector,
-    description: 'There are Corporate Identity, stationery, packaging, and menu for Rice it, rice planting kit for urban people. We design key visual with 3 various rice characters, brown rice, riceberry, Khao Sao Hai. '
+    description: 'There are Corporate Identity, stationery, packaging, and menu for Rice It, rice planting kit for urban people. We design key visual with 3 various rice characters, brown rice, riceberry, and Khao Sao Hai. '
 }
 
 export {

@@ -40,7 +40,7 @@ const WorkDetail = () => {
         <div className="row work-text-container">
             <div className="work-title" data-aos="fade-up">
                 {
-                    data.workName ? <p className="work-title-name" style={{ whiteSpace: "pre-line" }}>{data.workName}</p> : <p className="work-title-name">NAME OF WORK</p>
+                    data.workName ? <p className="work-title-name" style={{ whiteSpace: "pre-line", lineHeight: "1.3em" }}>{data.workName}</p> : <p className="work-title-name">NAME OF WORK</p>
                 }
                 {
                     data.role ? <p className="work-title-role" style={{ whiteSpace: "pre-line" }}>ROLE: {data.role}</p> : <p className="work-title-role">ROLE: role</p>
