@@ -23,10 +23,6 @@
     font-size: 36px;
 }
 
-.welcome-title-desc-font {
-    font-family: 'PlayfairDisplay';
-}
-
 .featured-container {
     padding-bottom: 6.37%;
 }
@@ -38,19 +34,21 @@
 .overlapped-text {
     position: absolute;
     top: 50%;
-    right: 6%;
+    right: 13%;
     transform: translate(-50%, -50%);
     text-align: left;
     line-height: 20px;
 }
 
 .overlapped-title {
-    font-size: 36px;
-    font-family: 'MontserratBold';
+    font-size: 32px;
+    font-family: 'MontserratExtraBold';
+    line-height: 2vw;
 }
 
 .overlapped-detail {
-    font-size: 24px;
+    font-size: 22px;
+    line-height: 0.7vw;
 }
 
 @media screen and (max-width: 1200px) {

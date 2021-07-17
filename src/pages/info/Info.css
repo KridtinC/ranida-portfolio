@@ -27,23 +27,28 @@
 }
 
 .profile-title {
-    font-size: 96px;
+    font-size: min(5.72vw, 96px);
     line-height: 100px;
 }
 
 .title-font-size {
-    font-size: 32px;
+    font-size: min(1.91vw, 32px);
+    font-family: 'MontserratBold';
+}
+
+.title-edu-exp-font-size {
+    font-size: min(2.1vw, 34px);
     font-family: 'MontserratBold';
 }
 
 .year-font-size {
-    font-size: 24px;
+    font-size: min(1.44vw, 24px);
     font-family: 'MontserratBold';
 }
 
 .desc-font-size {
     padding-right: 20%;
-    font-size: 18px;
+    font-size: min(1.08vw, 18px);
 }
 
 .profile-edu-exp-container {
@@ -74,14 +79,15 @@
 
 .skill-container {
     display: flex;
-    padding-left: 16.2%;
-    padding-right: 9%;
+    padding-left: 12%;
+    padding-right: 12%;
     padding-top: 7%;
     padding-bottom: 13.3%;
+    justify-content: space-between;
 }
 
 .skill-info {
-    width: 33.33%;
+    /* width: 33.33%; */
 }
 
 .contact-bg {
@@ -112,6 +118,10 @@
     padding: 1%;
 }
 
+.contact-item-button {
+    display: flex;
+}
+
 .contact-form {
     width: 60%;
     display: flex;
@@ -131,19 +141,63 @@
 .contact-form-input {
     border-radius: 40px;
     width: 100%;
+    border: 2px solid #FFF;
+    padding: 10px;
 }
 
 .contact-form-textarea {
-    border-radius: 20px;
+    border-radius: 40px;
     width: 100%;
+    border: 2px solid #FFF;
+    padding: 40px;
 }
 
-input, button {
+.contact-form-button {
+    width: 195px;
+    margin: 0 auto;
+    border-radius: 40px;
+    border: 2px solid #C4C4C4;
+    padding: 10px;
+}
+
+input, button, textarea {
+    font-size: 18px;
+    outline: none;
+}
+
+button {
+    font-family: 'MontserratBold';
+    background-color: #C4C4C4;
+    font-size: 18px;
+}
+
+/* placeholder */
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    font-size: 18px;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: 18px;
+}
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    font-size: 18px;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
     font-size: 18px;
 }
 
 @media screen and (max-width: 1200px) {
     .title-font-size {
+        font-size: 1em;
+    }
+    .title-edu-exp-font-size {
         font-size: 1em;
     }
     .year-font-size {
@@ -155,6 +209,7 @@ input, button {
     }
     .profile-container {
         flex-direction: column-reverse;
+        padding: 5%;
     }
     .profile-pic-container {
         width: 80%;
@@ -170,6 +225,7 @@ input, button {
     }
     .profile-edu-exp-container {
         flex-direction: column;
+        padding: 5%;
     }
     .profile-edu-container {
         width: 100%;
@@ -181,20 +237,25 @@ input, button {
     }
     .skill-container {
         flex-direction: column;
-        padding-bottom: 25%;
+        padding: 5%;
+        padding-top: 10%;
+        padding-bottom: 100px;
     }
     .skill-info {
         width: 100%;
-        margin-bottom: 5%;
+        margin-bottom: 10%;
     }
     .contact-container {
         flex-direction: column;
+        padding: 5%;
     }
     .contact-name-email {
         flex-direction: column;
     }
     .contact-item {
         width: 100%;
+        margin: 0px;
+        padding: 1%;
     }
     .contact-form {
         width: 100%;
@@ -207,9 +268,27 @@ input, button {
     }
     .contact-form-textarea {
         border-radius: 20px;
+        padding: 20px;
     }
-    input, button {
+    input, button, textarea {
         font-size: 0.7em;
+    }
+    /* placeholder */
+    ::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        font-size: 0.9em;
+    }
+    ::-moz-placeholder {
+        /* Firefox 19+ */
+        font-size: 0.9em;
+    }
+    :-ms-input-placeholder {
+        /* IE 10+ */
+        font-size: 0.9em;
+    }
+    :-moz-placeholder {
+        /* Firefox 18- */
+        font-size: 0.9em;
     }
 }
 
@@ -261,26 +340,4 @@ img {
 
 .contact-title {
     color: white;
-}
-
-/* placeholder */
-
-::-webkit-input-placeholder {
-    /* Chrome/Opera/Safari */
-    font-size: 18px;
-}
-
-::-moz-placeholder {
-    /* Firefox 19+ */
-    font-size: 18px;
-}
-
-:-ms-input-placeholder {
-    /* IE 10+ */
-    font-size: 18px;
-}
-
-:-moz-placeholder {
-    /* Firefox 18- */
-    font-size: 18px;
 }

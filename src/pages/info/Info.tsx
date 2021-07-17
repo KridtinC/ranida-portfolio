@@ -43,7 +43,7 @@ function Info() {
             </div>
             <div className="profile-edu-exp-container">
                 <div className="profile-edu-container">
-                    <p className="title-font-size" data-aos="fade-up"><b>EDUCATIONS</b></p>
+                    <p className="title-edu-exp-font-size" data-aos="fade-up"><b>EDUCATIONS</b></p>
                     {
                         EducationsInfo.map((edu) => {
                             return <YearDetail years={edu.years} title={edu.title} description={edu.description} />
@@ -51,7 +51,7 @@ function Info() {
                     }
                 </div>
                 <div className="profile-exp-container">
-                    <p className="title-font-size" data-aos="fade-up"><b>EXPERIENCES</b></p>
+                    <p className="title-edu-exp-font-size" data-aos="fade-up"><b>EXPERIENCES</b></p>
                     {
                         ExperiencesInfo.map((edu) => {
                             return <YearDetail years={edu.years} title={edu.title} description={edu.description} />
@@ -94,9 +94,8 @@ function Info() {
                         <div className="contact-item-full">
                             <textarea className="contact-item-full contact-form-textarea" name="detail" placeholder="Leave your message" rows={7} />
                         </div>
-                        <div className="contact-item-full">
-                            <button className="contact-form-input" data-toggle="modal" data-target=".contact-popup">Submit</button>
-                            <button className="contact-form-input" data-toggle="modal" data-target=".contact-popup">Just another submit button</button>
+                        <div className="contact-item-button">
+                            <button className="contact-form-button" data-toggle="modal" data-target=".contact-popup">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -135,7 +134,7 @@ const SkillDetail = (props: SkillDetailProps) => {
             <ul className="desc-font-size edu-exp-info">
                 {
                     props.skillList.map((skill) => {
-                        return <li>{skill}</li>
+                        return <li style={{ whiteSpace: "nowrap" }}>{skill}</li>
                     })
                 }
             </ul>

@@ -1,4 +1,5 @@
 import './Home.css'
+import '../common.css'
 import { Image } from '../../components/Image'
 import { Link } from 'react-router-dom'
 import { DataMap } from '../../components/Sources'
@@ -13,7 +14,7 @@ function Home() {
             <div className="welcome-container" data-aos="fade-down">
                 <p className="welcome-title">HELLO!</p>
                 <p className="welcome-title">THIS IS <b className="welcome-title-name">RANIDA</b></p>
-                <p className="welcome-title-desc">and here is <span className="welcome-title-desc-font">my portfolio!</span></p>
+                <p className="welcome-title-desc">and here is my portfolio!</p>
             </div>
             <div className="featured-container" data-aos="fade-down">
                 <div className="main-feature-container">
