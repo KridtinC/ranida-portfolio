@@ -20,14 +20,14 @@
     box-shadow: none;
 }
 
-/* @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     .navbar-collapse.collapsing {
         transition: none;
         -webkit-transition: none;
         -moz-transition: none;
         overflow: visible;
     }
-} */
+}
 
 @media screen and (max-width: 1200px) {
     .navbar-size {
