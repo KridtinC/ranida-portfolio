@@ -29,20 +29,23 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .work-text-container {
+        padding-top: 13%;
+    }
     .work-title {
         width: 100%;
+        text-align: center;
     }
     .work-description {
         width: 100%;
+        text-align: center;
     }
     .work-title-name {
         font-size: 0.9em;
     }
-    
     .work-title-role {
         font-size: 0.8em;
     }
-    
     .work-description {
         font-size: 0.8em;
     }

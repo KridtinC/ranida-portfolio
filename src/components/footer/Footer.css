@@ -1,0 +1,12 @@
+.footer-text-container {
+    padding-bottom: 33px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1200px) {
+    .footer-text-container {
+        font-size: 10px;
+    }
+}
