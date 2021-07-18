@@ -28,6 +28,23 @@
     font-size: min(1.08vw, 18px);
 }
 
+.video-container {
+    background-color: #e5e5e5;
+    height: calc(100vw*0.5625);
+}
+
+.video-placeholder {
+    height: 17.41%;
+}
+
+.video-component {
+    width: 65.18%;
+    height: 65.1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media screen and (max-width: 1200px) {
     .work-text-container {
         padding-top: 13%;
@@ -48,5 +65,12 @@
     }
     .work-description {
         font-size: 0.8em;
+    }
+    .video-placeholder {
+        height: 0%;
+    }
+    .video-component {
+        width: 100%;
+        height: 100%;
     }
 }

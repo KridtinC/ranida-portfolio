@@ -4,7 +4,7 @@ import { CreedData, Sani1Data, TTTData, KKSData, FibonacciData, TypeFounderData 
 import { ACupOfChiangRaiFeaturedData, CreedFeaturedData, RiceitFeaturedData, TTimeFeaturedData } from "./HomeSources";
 import { ArtHistoryData, IkuraData, NTMYData, RiceitData, SynPhaetData, TheWriterProjectData } from "./IllustrationSources";
 import { CalmData, AloisData, DinoData, MaeliebData } from "./OthersSources";
-import { LDD2Data, LinePointData, LineShoppingData, Agnostic2Data } from "./UXUISources";
+import { LDD2Data, LinePointData, LineShoppingData, Agnostic2Data, LINEPointsAwarenessData } from "./UXUISources";
 
 const DataMap: Map<string, WorkDetailProps> = new Map();
 DataMap.set("t-time-featured", TTimeFeaturedData)
@@ -37,6 +37,7 @@ DataMap.set("line-horoscope2", LDD2Data);
 DataMap.set("k-bank-line-points", LinePointData);
 DataMap.set("line-points-back", LineShoppingData);
 DataMap.set("agnostic-ui", Agnostic2Data);
+DataMap.set("line-points-awareness", LINEPointsAwarenessData);
 
 DataMap.set("calm-outdoors", CalmData);
 DataMap.set("alois", AloisData);

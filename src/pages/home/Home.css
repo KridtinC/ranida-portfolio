@@ -24,7 +24,7 @@
 }
 
 .featured-container {
-    padding-bottom: 6.37%;
+    /* padding-bottom: 6.37%; */
 }
 
 .main-feature-container {
@@ -60,7 +60,7 @@
         font-size: 1.1em;
     }
     .overlapped-text {
-        line-height: 1.2vw;
+        display: none;
     }
     .overlapped-title {
         font-size: 1em;

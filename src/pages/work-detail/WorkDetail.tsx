@@ -10,6 +10,7 @@ interface WorkDetailProps {
     workName?: string
     role?: string
     description?: string
+    youtubeURL?: string
 }
 
 enum Role {
@@ -36,6 +37,22 @@ const WorkDetail = () => {
                     </div>
                 </div>
             }) : null
+        }
+        {
+            data.youtubeURL ? <div className="video-container">
+                <div className="video-placeholder"></div>
+                <div className="video-component">
+                    <iframe
+                        width={"100%"}
+                        height={"100%"}
+                        src={`https://www.youtube.com/embed/${data.youtubeURL}`}
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        title={data.workName}
+                    />
+                </div>
+            </div> : null
         }
         <div className="row work-text-container">
             <div className="work-title" data-aos="fade-up">

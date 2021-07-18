@@ -5,7 +5,7 @@ import { Image } from '../../components/Image'
 import { Link } from 'react-router-dom'
 import path from 'path'
 
-const work: string[][] = [["line-horoscope2", "k-bank-line-points"], ["line-points-back", "agnostic-ui"]]
+const work: string[][] = [["k-bank-line-points", "line-horoscope2"], ["agnostic-ui", "line-points-back"], ["line-points-awareness"]]
 
 function UXUI() {
     return (
