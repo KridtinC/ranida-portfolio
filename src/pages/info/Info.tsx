@@ -1,6 +1,6 @@
 import './Info.css'
 import profilePic from '../../assets/pic.png'
-import info1 from '../../assets/decorations/info-1.png'
+import info1 from '../../assets/decorations/info-1.jpg'
 import { Image } from '../../components/Image'
 import emailjs from 'emailjs-com';
 import { useState } from 'react';
@@ -95,7 +95,7 @@ function Info() {
                             <textarea className="contact-item-full contact-form-textarea" name="detail" placeholder="Leave your message" rows={7} />
                         </div>
                         <div className="contact-item-button">
-                            <button className="contact-form-button" data-toggle="modal" data-target=".contact-popup">Submit</button>
+                            <button className="contact-form-button" data-toggle="modal" data-target=".contact-popup">SUBMIT</button>
                         </div>
                     </form>
                 </div>
@@ -131,7 +131,7 @@ const SkillDetail = (props: SkillDetailProps) => {
     return (
         <div className="skill-info" data-aos="fade-up">
             <b className="title-font-size">{props.title}</b>
-            <ul className="desc-font-size edu-exp-info">
+            <ul className="desc-font-size edu-exp-info-list">
                 {
                     props.skillList.map((skill) => {
                         return <li style={{ whiteSpace: "nowrap" }}>{skill}</li>

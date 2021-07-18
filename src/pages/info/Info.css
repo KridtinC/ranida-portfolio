@@ -82,7 +82,7 @@
     padding-left: 12%;
     padding-right: 12%;
     padding-top: 7%;
-    padding-bottom: 13.3%;
+    padding-bottom: 7%;
     justify-content: space-between;
 }
 
@@ -92,8 +92,8 @@
 
 .contact-bg {
     background-color: #091F2C;
-    top: -85px;
-    position: relative;
+    /* top: -85px; */
+    /* position: relative; */
 }
 
 .contact-container {
@@ -102,6 +102,10 @@
     padding-right: 9.1%;
     padding-top: 5.6%;
     padding-bottom: 5%;
+}
+
+.contact-header {
+    width: 40%;
 }
 
 .contact-name-email {
@@ -202,7 +206,7 @@ button {
         text-align: center;
     }
     .year-font-size {
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
     .desc-font-size {
         padding-right: 0px;
@@ -210,7 +214,7 @@ button {
     }
     .profile-container {
         flex-direction: column-reverse;
-        padding: 5%;
+        padding: 8.45%;
     }
     .profile-pic-container {
         width: 80%;
@@ -218,15 +222,15 @@ button {
     .profile-title-container {
         width: 100%;
         margin-top: 8%;
+        text-align: center;
     }
     .profile-title {
-        font-size: 2.5em;
+        font-size: 2em;
         line-height: 1em;
-        text-align: center;
     }
     .profile-edu-exp-container {
         flex-direction: column;
-        padding: 5%;
+        padding: 8.45%;
     }
     .profile-edu-container {
         width: 100%;
@@ -238,9 +242,10 @@ button {
     }
     .skill-container {
         flex-direction: column;
-        padding: 5%;
+        padding: 8.45%;
         padding-top: 10%;
-        padding-bottom: 100px;
+        /* padding-bottom: 100px; */
+        text-align: center;
     }
     .skill-info {
         width: 100%;
@@ -248,7 +253,11 @@ button {
     }
     .contact-container {
         flex-direction: column;
-        padding: 5%;
+        padding: 8.45%;
+    }
+    .contact-header {
+        width: 100%;
+        text-align: center;
     }
     .contact-name-email {
         flex-direction: column;
@@ -262,6 +271,9 @@ button {
         width: 100%;
         display: flex;
         flex-direction: column;
+    }
+    .contact-form-input {
+        padding: 7px;
     }
     .contact-form-label {
         /* line-height: 3em; */
@@ -317,6 +329,13 @@ img {
 
 .edu-exp-info {
     width: 70%;
+    margin: 0px;
+    padding: 0px;
+    /* line-height: 0.5em; */
+}
+
+.edu-exp-info-list {
+    width: 100%;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
@@ -329,14 +348,10 @@ img {
 }
 
 .contact-zigzag {
-    text-decoration: none;
-    position: relative;
-    z-index: 10;
-    top: -84px;
-}
-
-.contact-header {
-    width: 40%;
+    /* text-decoration: none; */
+    /* position: relative; */
+    /* z-index: 10; */
+    /* top: -84px; */
 }
 
 .contact-title {

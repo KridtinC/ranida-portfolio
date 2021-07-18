@@ -1,7 +1,8 @@
 .footer-text-container {
+    padding-top: 16px;
     padding-bottom: 33px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 4.76%;
+    padding-right: 4.76%;
     font-size: 15px;
 }
 

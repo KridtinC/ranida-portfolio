@@ -39,7 +39,7 @@ const WorkDetail = () => {
             }) : null
         }
         {
-            data.youtubeURL ? <div className="video-container">
+            data.youtubeURL ? <div className="video-container" data-aos="fade-up">
                 <div className="video-placeholder"></div>
                 <div className="video-component">
                     <iframe

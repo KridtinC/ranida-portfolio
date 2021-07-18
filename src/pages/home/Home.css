@@ -11,8 +11,8 @@
 }
 
 .welcome-title {
-    font-size: 96px;
-    line-height: 100px;
+    font-size: min(5.72vw, 96px);
+    line-height: min(5.72vw, 96px);;
 }
 
 .welcome-title-name {
@@ -20,7 +20,7 @@
 }
 
 .welcome-title-desc {
-    font-size: 36px;
+    font-size: min(1.91vw, 36px);
 }
 
 .featured-container {
@@ -53,11 +53,11 @@
 
 @media screen and (max-width: 1200px) {
     .welcome-title {
-        font-size: 2.5em;
+        font-size: 2em;
         line-height: 8vw;
     }
     .welcome-title-desc {
-        font-size: 1.1em;
+        font-size: 1em;
     }
     .overlapped-text {
         display: none;

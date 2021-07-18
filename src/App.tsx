@@ -24,7 +24,7 @@ function App() {
           <Body></Body>
         </body>
         <div className="App-footer">
-          <Footer></Footer>
+          <Footer backgroundColor={"#FFFFFF"}></Footer>
         </div>
       </div>
     </HashRouter>
