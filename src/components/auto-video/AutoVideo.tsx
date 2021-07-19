@@ -25,6 +25,8 @@ export const AutoVideo = (props: ReactPlayerProps) => {
                     playing={shouldPlay}
                     width='100%'
                     height='100%'
+                    controls={true}
+                    volume={0.25}
                     {...props}
                 />
             </div>
