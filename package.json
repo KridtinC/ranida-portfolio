@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "bash -ac 'source .env.${REACT_APP_ENV}; react-scripts build'",
+    "build": "bash -ac 'cp $(pwd)/../env/.env.${REACT_APP_ENV} .; source .env.${REACT_APP_ENV}; react-scripts build'",
     "build:production": "REACT_APP_ENV=production npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
