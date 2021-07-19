@@ -45,16 +45,16 @@ function Info() {
                 <div className="profile-edu-container">
                     <p className="title-edu-exp-font-size" data-aos="fade-up"><b>EDUCATIONS</b></p>
                     {
-                        EducationsInfo.map((edu) => {
-                            return <YearDetail years={edu.years} title={edu.title} description={edu.description} />
+                        EducationsInfo.map((edu, key) => {
+                            return <YearDetail years={edu.years} title={edu.title} description={edu.description} key={key} />
                         })
                     }
                 </div>
                 <div className="profile-exp-container">
                     <p className="title-edu-exp-font-size" data-aos="fade-up"><b>EXPERIENCES</b></p>
                     {
-                        ExperiencesInfo.map((edu) => {
-                            return <YearDetail years={edu.years} title={edu.title} description={edu.description} />
+                        ExperiencesInfo.map((exp, key) => {
+                            return <YearDetail years={exp.years} title={exp.title} description={exp.description} key={key} />
                         })
                     }
                 </div>
@@ -62,8 +62,8 @@ function Info() {
             <div className="skill-background">
                 <div className="skill-container">
                     {
-                        SkillsInfo.map((skill) => {
-                            return <SkillDetail title={skill.title} skillList={skill.skillList} />
+                        SkillsInfo.map((skill, key) => {
+                            return <SkillDetail title={skill.title} skillList={skill.skillList} key={key} />
                         })
                     }
                 </div>
@@ -120,9 +120,11 @@ const YearDetail = (props: YearDetailProps) => {
     return (
         <div className="edu-exp-container" data-aos="fade-up">
             <b className="year-font-size edu-exp-year">{props.years}</b>
-            <p className="desc-font-size edu-exp-info" style={{ whiteSpace: "pre-line" }}>{props.title}
-                <p className="desc-font-size edu-exp-info-desc" style={{ whiteSpace: "pre-line" }}>{props.description}</p>
-            </p>
+            <div className="desc-font-size edu-exp-info">
+                <p style={{ margin: "0px" }}>{props.title}</p>
+                <p className="edu-exp-info-desc">{props.description}</p>
+            </div>
+
         </div>
     )
 }
@@ -133,8 +135,8 @@ const SkillDetail = (props: SkillDetailProps) => {
             <b className="title-font-size">{props.title}</b>
             <ul className="desc-font-size edu-exp-info-list">
                 {
-                    props.skillList.map((skill) => {
-                        return <li style={{ whiteSpace: "nowrap" }}>{skill}</li>
+                    props.skillList.map((skill, key) => {
+                        return <li style={{ whiteSpace: "nowrap" }} key={key}>{skill}</li>
                     })
                 }
             </ul>

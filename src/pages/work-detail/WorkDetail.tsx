@@ -1,4 +1,5 @@
 import { useParams } from 'react-router'
+import { AutoVideo } from '../../components/auto-video/AutoVideo';
 import { Image } from '../../components/Image';
 import { DataMap } from '../../components/Sources'
 import './WorkDetail.css'
@@ -25,13 +26,11 @@ const WorkDetail = () => {
     let { workURL } = useParams() as {
         workURL: string;
     };
-    console.log(workURL)
     var data = DataMap.get(workURL)!!;
-    console.log(data)
     return <div>
         {
-            data.imgSources ? data.imgSources.map((img) => {
-                return <div className="row">
+            data.imgSources ? data.imgSources.map((img, key) => {
+                return <div className="row" key={key} >
                     <div className="col">
                         <Image source={img}></Image>
                     </div>
@@ -42,15 +41,7 @@ const WorkDetail = () => {
             data.youtubeURL ? <div className="video-container" data-aos="fade-up">
                 <div className="video-placeholder"></div>
                 <div className="video-component">
-                    <iframe
-                        width={"100%"}
-                        height={"100%"}
-                        src={`https://www.youtube.com/embed/${data.youtubeURL}`}
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                        title={data.workName}
-                    />
+                    <AutoVideo url={`https://www.youtube.com/embed/${data.youtubeURL}`} />
                 </div>
             </div> : null
         }
@@ -70,7 +61,7 @@ const WorkDetail = () => {
             </div>
         </div>
 
-    </div>
+    </div >
 
 }
 

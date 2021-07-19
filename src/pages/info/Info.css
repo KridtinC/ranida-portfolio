@@ -331,6 +331,7 @@ img {
     width: 70%;
     margin: 0px;
     padding: 0px;
+    white-space: pre-line;
     /* line-height: 0.5em; */
 }
 
@@ -344,7 +345,6 @@ img {
 
 .edu-exp-info-desc {
     color: #888888;
-    margin: 0px;
 }
 
 .contact-zigzag {

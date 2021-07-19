@@ -10,7 +10,6 @@ function Footer(props: FooterProps) {
     var color = ""
 
     const location = useLocation();
-    console.log(location.pathname)
     if (location.pathname === "/info") {
         backgroundColor = "#091F2C"
         color = "#FFF";

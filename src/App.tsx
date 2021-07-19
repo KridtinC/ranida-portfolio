@@ -20,9 +20,9 @@ function App() {
         <header className="App-header">
           <AppRouter></AppRouter>
         </header>
-        <body className="App-body">
+        <div className="App-body">
           <Body></Body>
-        </body>
+        </div>
         <div className="App-footer">
           <Footer backgroundColor={"#FFFFFF"}></Footer>
         </div>

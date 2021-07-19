@@ -27,11 +27,11 @@ function Home() {
                     </div>
                 </div>
                 {
-                    work.map((row) => {
-                        return <div className="row">
+                    work.map((row, key) => {
+                        return <div className="row" key={key}>
                             {
-                                row.map((col) => {
-                                    return <div className="col">
+                                row.map((col, key) => {
+                                    return <div className="col" key={key}>
                                         <Link to={path.join('works', DataMap.get(col)!!.url)}>
                                             <Image source={DataMap.get(col)!!.coverImgURL}></Image>
                                         </Link>
